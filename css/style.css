@@ -117,6 +117,7 @@ footer {
     background-image: url(../img/layer_01.png);
     background-position: 0px 0px;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #layer2 {
@@ -129,6 +130,7 @@ footer {
     background-image: url(../img/layer_02.png);
     background-position: 0px 0px;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 @media (max-width: 768px) {
