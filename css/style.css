@@ -15,11 +15,11 @@ body {
 }
 
 header {
-    background-color: #f1d6ab;
-    -webkit-filter: drop-shadow(0px 3px 2px rgba(0, 0, 0, 0.2));
-    -moz-filter: drop-shadow(0px 3px 2px rgba(0, 0, 0, 0.2));
-    -ms-filter: drop-shadow(0px 3px 2px rgba(0, 0, 0, 0.2));
-    filter: drop-shadow(0px 3px 2px rgba(0, 0, 0, 0.2));
+    background-color: transparent;
+    -webkit-filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0));
+    -moz-filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0));
+    -ms-filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0));
+    filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0));
 }
 
 .navbar {
@@ -71,6 +71,10 @@ h2 {
     text-align: center;
     margin-bottom: 1rem;
     font-weight: 900;
+}
+
+h3 {
+    font-size: 1.5rem;
 }
 
 section {
