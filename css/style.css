@@ -135,7 +135,7 @@ footer {
 
 @media (max-width: 768px) {
     .navbar-brand {
-        font-size: .8rem;
+        font-size: 1rem;
     }
 
     h1 {
