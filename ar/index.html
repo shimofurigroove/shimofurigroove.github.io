@@ -13,12 +13,13 @@
         <a-assets>
             <a-asset-item id="steak-obj" src="3d/shimofuri.obj"></a-asset-item>
             <a-asset-item id="steak-mtl" src="3d/shimofuri.mtl"></a-asset-item>
+            <img id="homeThumbnail" src="btn.jpg">
         </a-assets>
         <a-marker type="pattern" url="pattern-marker.patt">
             <a-entity position="0 -1 0" scale="0.008 0.008 0.008" obj-model="obj: #steak-obj; mtl: #steak-mtl" link="href: https://shimofurigroove.github.io/; title: niku; image: #steak-obj">
             </a-entity>
             <a-text value="SHIMOFURI GROOVE" position="0 2 0" align="center" link="href: https://shimofurigroove.github.io/; title: niku; image: #steak-obj"></a-text>
-            <a-link href="https://shimofurigroove.github.io/" title="shimofurigroove" image="" position="0 -2 0"></a-link>
+            <a-link href="https://shimofurigroove.github.io/" title="shimofurigroove" image="#homeThumbnail" position="0 -2 -2"></a-link>
         </a-marker>
         <a-entity camera></a-entity>
     </a-scene>
