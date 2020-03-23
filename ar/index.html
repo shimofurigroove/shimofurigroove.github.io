@@ -13,16 +13,16 @@
 <link rel="stylesheet" href="style.css">
 
 <body>
-<!--     <div class="arjs-loader">
+    <div class="arjs-loader">
         <div>ローディング中・・・</div>
-    </div> -->
+    </div>
     <a-scene embedded arjs="debugUIEnabled: false; trackingMethod: best;" vr-mode-ui="enabled: false">
         <a-assets>
             <a-asset-item id="steak-obj" src="3d/shimofuri.obj"></a-asset-item>
             <a-asset-item id="steak-mtl" src="3d/shimofuri.mtl"></a-asset-item>
         </a-assets>
         <!-- <a-marker type="pattern" url="pattern-marker.patt"> -->
-        <a-nft type="nft" url="marker" smooth="true" smoothCount="10" smoothTolerance=".01" smoothThreshold="5">
+        <a-nft type="nft" url="https://shimofurigroove.github.io/ar/marker" smooth="true" smoothCount="10" smoothTolerance=".01" smoothThreshold="5">
             <a-entity position="0 -1 0" scale="0.008 0.008 0.008" obj-model="obj: #steak-obj; mtl: #steak-mtl" link="href: https://shimofurigroove.github.io/; title: niku; image: #steak-obj"></a-entity>
             <a-text value="SHIMOFURI GROOVE" position="0 2 0" align="center"></a-text>
             <!-- </a-marker> -->
