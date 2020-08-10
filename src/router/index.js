@@ -4,7 +4,7 @@ import Home from '../views/Home.vue'
 
 Vue.use(VueRouter)
 
-  const routes = [
+const routes = [
   {
     path: '/',
     name: 'Home',
@@ -17,10 +17,32 @@ Vue.use(VueRouter)
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+  },
+  {
+    path: '/2019-12-08',
+    name: '2019-12-08',
+    component: () => import('../views/2019-12-08.vue')
+  },
+  {
+    path: '/2020-01-31',
+    name: '2020-01-31',
+    component: () => import('../views/2020-01-31.vue')
+  },
+  {
+    path: '/2020-07-22',
+    name: '2020-07-22',
+    component: () => import('../views/2020-07-22.vue')
   }
 ]
 
 const router = new VueRouter({
+  scrollBehavior (to, from, savedPosition) {
+    if (savedPosition) {
+       return savedPosition
+    } else {
+       return { x: 0, y: 0 }
+    }
+  },
   mode: 'history',
   base: process.env.BASE_URL,
   routes
