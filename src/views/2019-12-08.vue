@@ -84,6 +84,13 @@ export default {
     Header,
     BackToTop,
     Footer
+  },
+  methods: {
+    track () {
+      this.$gtag.pageview({
+        page_path: '/2019-12-08',
+      })
+    }
   }
 }
 </script>
