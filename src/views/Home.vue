@@ -20,8 +20,23 @@
         </section>
         <section>
             <h2 id="events">🦅開催予定 Upcoming Events</h2>
-            <p>次回開催は8月26日(水)予定！改めてTwitterなどで告知しますので、是非フォローお願いいたします！<br>
-            Please follow our twitter account for news and updates for our future events.</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <p><a href="/images/04/flyer.jpg" target="_blank"><img src="/images/04/flyer.jpg" class="img-fluid"></a></p>
+                </div>
+                <div class="col-md-6">
+                    <p>
+                        米沢のDJイベントが増えてほしい、という思いで、DJ好きや興味がある方に向けたDJ体験・練習会を開催します！<br>
+                        Open DJの時間では、レコード、PC、コントローラーなど持参していただき自由にDJしてOKです。<br>
+                        ※Open DJは先着順です。時間や進行の都合上、DJできない場合もあります。ご了承ください。🙇<br>
+                        <br>
+                        常設予定の機器<br>
+                        SL-1200MK3 x 2、DJM-S3、Traktor Scratch A6、Traktor Kontrol X1MK2
+                    </p>
+                    <div class='embed-container'><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12591.061337750092!2d140.1117743!3d37.9125474!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x44f6ae37e307a919!2z6YeR54aK6aOf5aCC!5e0!3m2!1sja!2sjp!4v1576427433769!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div>
+                </div>
+                <BackToTop/>
+            </div>
         </section>
         <section>
             <h2 id="movie">🍒配信 Live Stream</h2>
