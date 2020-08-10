@@ -7,7 +7,3 @@ export default {
   name: 'BackToTop'
 }
 </script>
-
-<style scoped lang="scss">
-
-</style>
