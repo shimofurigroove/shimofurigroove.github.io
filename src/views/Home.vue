@@ -71,6 +71,13 @@ export default {
     Layer,
     Header,
     Footer
+  },
+  methods: {
+    track () {
+      this.$gtag.pageview({
+        page_path: '/',
+      })
+    }
   }
 }
 </script>
