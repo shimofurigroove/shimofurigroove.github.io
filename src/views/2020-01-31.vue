@@ -51,6 +51,27 @@ import Footer from '@/components/Footer.vue'
 
 export default {
   name: 'Home',
+  metaInfo: {
+    title: '霜降りGROOVE episode #2',
+    meta: [
+      {
+        name: "description",
+        content: "ご参加くださいましたみなさんありがとうございました！DJに興味をもった方増えてくれましたでしょうか？また、フリーDJでは、様々なジャンルの音楽を聞けて、とても刺激になりました！また次回も是非開催したいですね。"
+      },
+      {
+        property: "og:url",
+        content: "https://shimofurigroove.github.io/2020-01-31"
+      },
+      {
+        property: "og:title",
+        content: "霜降りGROOVE episode #2"
+      },
+      {
+        property: "og:description",
+        content: "ご参加くださいましたみなさんありがとうございました！DJに興味をもった方増えてくれましたでしょうか？また、フリーDJでは、様々なジャンルの音楽を聞けて、とても刺激になりました！また次回も是非開催したいですね。"
+      }
+    ]
+  },
   components: {
     Layer,
     Header,

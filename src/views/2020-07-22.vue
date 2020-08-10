@@ -47,6 +47,27 @@ import Footer from '@/components/Footer.vue'
 
 export default {
   name: 'Home',
+  metaInfo: {
+    title: '霜降りGROOVE episode #3',
+    meta: [
+      {
+        name: "description",
+        content: "ご参加くださいましたみなさんありがとうございました！B'zで大盛りあがりな一夜でした笑。"
+      },
+      {
+        property: "og:url",
+        content: "https://shimofurigroove.github.io/2020-07-22"
+      },
+      {
+        property: "og:title",
+        content: "霜降りGROOVE episode #3"
+      },
+      {
+        property: "og:description",
+        content: "ご参加くださいましたみなさんありがとうございました！B'zで大盛りあがりな一夜でした笑。"
+      }
+    ]
+  },
   components: {
     Layer,
     Header,

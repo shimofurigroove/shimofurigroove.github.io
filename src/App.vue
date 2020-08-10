@@ -37,7 +37,7 @@ export default {
       },
       {
         property: "og:image",
-        content: "https://shimofurigroove.github.io/img/og.jpg"
+        content: "https://shimofurigroove.github.io/images/og.jpg"
       },
       {
         property: "og:type",
@@ -48,15 +48,15 @@ export default {
         content: "霜降りGROOVE"
       },
       {
-        property: "twitter:card",
+        name: "twitter:card",
         content: "summary_large_image"
       },
       {
-        property: "twitter:site:id",
+        name: "twitter:site:id",
         content: "@ShimofuriGroove"
       },
       {
-        property: "twitter:creator",
+        name: "twitter:creator",
         content: "@ShimofuriGroove"
       }
     ]
