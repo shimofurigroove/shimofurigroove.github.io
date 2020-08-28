@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+<title>肉</title>
+<script src="https://aframe.io/releases/1.0.0/aframe.min.js"></script>
+<script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+<link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <a-scene embedded arjs="debugUIEnabled: false; trackingMethod: best;" vr-mode-ui="enabled: false">
+        <a-assets>
+            <a-asset-item id="steak-obj" src="3d/shimofuri.obj"></a-asset-item>
+            <a-asset-item id="steak-mtl" src="3d/shimofuri.mtl"></a-asset-item>
+        </a-assets>
+        <a-marker type="pattern" url="pattern-marker.patt">
+            <a-entity position="0 -1 0" scale="0.008 0.008 0.008" obj-model="obj: #steak-obj; mtl: #steak-mtl" link="href: https://shimofurigroove.github.io/">
+            </a-entity>
+            <a-text value="SHIMOFURI GROOVEウェブサイトはこちら" position="0 2 0" align="center" link="href: https://shimofurigroove.github.io/"></a-text>
+        </a-marker>
+        <a-entity camera></a-entity>
+    </a-scene>
+    <div class="ui">
+        <img id="snap">
+        <a href="#" id="delete-photo" title="Delete Photo" class="disabled"><i class="material-icons">delete</i></a>
+        <a href="" id="take-photo" title="Take Photo"><i class="material-icons">photo_camera</i></a>
+        <a href="#" id="download-photo" download="selfie.png" title="Save Photo" class="disabled" target="_blank"><i class="material-icons">file_download</i></a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
