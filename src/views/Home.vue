@@ -21,9 +21,11 @@
         <section>
             <h2 id="events">🦅開催予定 Upcoming Events</h2>
             <div class="row">
-                <p>2020/9/11（金）20時頃 @LIVE ARB [b:arb]<br>
-                2020/10/21（水）20時頃@金熊食堂<br>
-                それぞれ詳細は近日発表予定</p>
+                <div class="col-xs-12">
+                  <p>2020/9/11（金）20時頃 @LIVE ARB [b:arb]<br>
+                  2020/10/21（水）20時頃@金熊食堂<br>
+                  それぞれ詳細は近日発表予定</p>
+                </div>
             </div>
         </section>
         <section>
