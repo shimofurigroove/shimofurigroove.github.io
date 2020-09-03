@@ -21,12 +21,18 @@
         <section>
             <h2 id="events">🦅開催予定 Upcoming Events</h2>
             <div class="row">
-                <div class="col-xs-12">
-                  <p>2020/9/11（金）20時頃 @LIVE ARB [b:arb]<br>
-                  2020/10/21（水）20時頃@金熊食堂<br>
-                  それぞれ詳細は近日発表予定</p>
+                <div class="col-md-6">
+                    <p><a href="/images/05/flyer.jpg" target="_blank"><img src="/images/05/flyer.jpg" class="img-fluid"></a></p>
+                </div>
+                <div class="col-md-6">
+                    <p>
+                      仕事で疲れたとき、いい音楽を聞きながら、のんびり飲める場所や他愛のないことを話せる相手って大事。<br>
+                      どこかで読んだけど、そういうことができる場所や友達を探すのが大人には大切ですよね。
+                    </p>
+                    <div class='embed-container'><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3147.8016911132613!2d140.1099035!3d37.9116977!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8af03ec396aaab%3A0x30deca2d8b11396b!2sLive%20ARB!5e0!3m2!1sja!2sjp!4v1572711206202!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div>
                 </div>
             </div>
+            <p>2020/9/11@Live Arbさんの次は、2020/10/21@金熊食堂さんで開催予定です。</p>
         </section>
         <section>
             <h2 id="movie">🍒配信 Live Stream</h2>

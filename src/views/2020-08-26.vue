@@ -12,6 +12,9 @@
                 </div>
                 <div class="row">
                     <div class="col-md-4 col-6"><img src="/images/04/01.jpg" class="img-fluid"></div>
+                    <div class="col-md-4 col-6"><img src="/images/04/02.jpg" class="img-fluid"></div>
+                    <div class="col-md-4 col-6"><img src="/images/04/03.jpg" class="img-fluid"></div>
+                    <div class="col-md-4 col-6"><img src="/images/04/04.jpg" class="img-fluid"></div>
                 </div>
             </div>
         </section>
