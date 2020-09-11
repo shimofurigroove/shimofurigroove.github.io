@@ -22,7 +22,9 @@
             <h2 id="events">🦅開催予定 Upcoming Events</h2>
             <div class="row">
                 <div class="col-md-6">
-                    <p><a href="/images/05/flyer.jpg" target="_blank"><img src="/images/05/flyer.jpg" class="img-fluid"></a></p>
+                    <p><a href="https://twitcasting.tv/livearb" target="_blank"><img src="/images/05/flyer.jpg" class="img-fluid"></a><br>
+                    <a href="https://twitcasting.tv/livearb" target="_blank">https://twitcasting.tv/livearb</a>で配信予定！
+                    </p>
                 </div>
                 <div class="col-md-6">
                     <p>
