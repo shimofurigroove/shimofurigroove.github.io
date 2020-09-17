@@ -1,0 +1,87 @@
+<template>
+  <div class="home">
+    <Layer/>
+    <Header/>
+    <div class="container">
+        <section>
+            <div class="page-header" id="banner">
+                <div class="my-4">
+                    <h1>🍖米沢のDJイベント、霜降りGROOVE episode #4</h1>
+                    <p>ご来場くださった方、配信見てくださった方、Arbさんありがとうございました！DJで参加のHICHAさん、もらけさん、いつもありがとうございます！<br>
+                    飲みすぎましたー<br>
+                    当日ライブ配信していた動画は<a href="https://twitcasting.tv/livearb/movie/640005998" target="_blank">「こちら」</a>。</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-6"><img src="/images/05/01.jpg" class="img-fluid"></div>
+                    <div class="col-md-4 col-6"><img src="/images/05/02.jpg" class="img-fluid"></div>
+                    <div class="col-md-4 col-6"><img src="/images/05/03.jpg" class="img-fluid"></div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="row">
+                <div class="col-md-6">
+                    <p><a href="https://twitcasting.tv/livearb/movie/640005998" target="_blank"><img src="/images/05/flyer.jpg" class="img-fluid"></a><br>
+                    当日ライブ配信していた動画は<a href="https://twitcasting.tv/livearb/movie/640005998" target="_blank">「こちら」</a>
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <p>
+                      仕事で疲れたとき、いい音楽を聞きながら、のんびり飲める場所や他愛のないことを話せる相手って大事。<br>
+                      どこかで読んだけど、そういうことができる場所や友達を探すのが大人には大切ですよね。
+                    </p>
+                    <div class='embed-container'><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3147.8016911132613!2d140.1099035!3d37.9116977!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8af03ec396aaab%3A0x30deca2d8b11396b!2sLive%20ARB!5e0!3m2!1sja!2sjp!4v1572711206202!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div>
+                </div>
+                <BackToTop/>
+            </div>
+        </section>
+    </div>
+    <Footer/>
+  </div>
+</template>
+
+<script>
+// @ is an alias to /src
+import Layer from '@/components/Layer.vue'
+import Header from '@/components/Header.vue'
+import BackToTop from '@/components/BackToTop.vue'
+import Footer from '@/components/Footer.vue'
+
+export default {
+  name: 'Home',
+  metaInfo: {
+    title: '霜降りGROOVE episode #4',
+    meta: [
+      {
+        name: "description",
+        content: "久しぶりのLive Arbさん！お越しくださった方、配信みてくださった方、誠にありがとうございました！"
+      },
+      {
+        property: "og:url",
+        content: "https://shimofurigroove.github.io/2020-09-17"
+      },
+      {
+        property: "og:title",
+        content: "霜降りGROOVE episode #5"
+      },
+      {
+        property: "og:description",
+        content: "久しぶりのLive Arbさん！お越しくださった方、配信みてくださった方、誠にありがとうございました！"
+      }
+    ]
+  },
+  components: {
+    Layer,
+    Header,
+    BackToTop,
+    Footer
+  },
+  methods: {
+    track () {
+      this.$gtag.pageview({
+        page_path: '/2020-09-17',
+      })
+    }
+  }
+}
+</script>

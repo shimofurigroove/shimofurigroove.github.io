@@ -21,20 +21,10 @@
         <section>
             <h2 id="events">🦅開催予定 Upcoming Events</h2>
             <div class="row">
-                <div class="col-md-6">
-                    <p><a href="https://twitcasting.tv/livearb" target="_blank"><img src="/images/05/flyer.jpg" class="img-fluid"></a><br>
-                    <a href="https://twitcasting.tv/livearb" target="_blank">https://twitcasting.tv/livearb</a>で配信予定！
-                    </p>
-                </div>
-                <div class="col-md-6">
-                    <p>
-                      仕事で疲れたとき、いい音楽を聞きながら、のんびり飲める場所や他愛のないことを話せる相手って大事。<br>
-                      どこかで読んだけど、そういうことができる場所や友達を探すのが大人には大切ですよね。
-                    </p>
-                    <div class='embed-container'><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3147.8016911132613!2d140.1099035!3d37.9116977!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8af03ec396aaab%3A0x30deca2d8b11396b!2sLive%20ARB!5e0!3m2!1sja!2sjp!4v1572711206202!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div>
+                <div class="col-md-12">
+                  <p>2020/10/21@金熊食堂さんで開催予定です。</p>
                 </div>
             </div>
-            <p>2020/9/11@Live Arbさんの次は、2020/10/21@金熊食堂さんで開催予定です。</p>
         </section>
         <section>
             <h2 id="movie">🍒配信 Live Stream</h2>
@@ -43,10 +33,14 @@
             <p class="text-center">
                 <a class="btn btn-primary" href="https://www.pscp.tv/ShimofuriGroove/" target="_blank" role="button">Periscope</a>
             </p>
+            <p class="text-center">
+                <a class="btn btn-primary" href="https://twitcasting.tv/livearb/movie/640005998" target="_blank" role="button">Twitcasting</a>
+            </p>
         </section>
         <section>
             <h2 id="archive">⛄️過去回 Archives</h2>
             <ul>
+                <li><router-link to="/2020-09-17">2020/09/17 Episode #5</router-link></li>
                 <li><router-link to="/2020-08-26">2020/08/26 Episode #4</router-link></li>
                 <li><router-link to="/2020-07-22">2020/07/22 Episode #3</router-link></li>
                 <li><router-link to="/2020-01-31">2020/01/31 Episode #2</router-link></li>
