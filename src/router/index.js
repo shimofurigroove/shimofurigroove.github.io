@@ -33,9 +33,9 @@ const routes = [
     component: () => import('../views/2020-08-26.vue')
   },
   {
-    path: '/2020-09-17',
-    name: '2020-09-17',
-    component: () => import('../views/2020-09-17.vue')
+    path: '/2020-09-11',
+    name: '2020-09-11',
+    component: () => import('../views/2020-09-11.vue')
   }
 ]
 

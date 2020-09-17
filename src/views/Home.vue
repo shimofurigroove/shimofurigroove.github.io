@@ -40,7 +40,7 @@
         <section>
             <h2 id="archive">⛄️過去回 Archives</h2>
             <ul>
-                <li><router-link to="/2020-09-17">2020/09/17 Episode #5</router-link></li>
+                <li><router-link to="/2020-09-11">2020/09/11 Episode #5</router-link></li>
                 <li><router-link to="/2020-08-26">2020/08/26 Episode #4</router-link></li>
                 <li><router-link to="/2020-07-22">2020/07/22 Episode #3</router-link></li>
                 <li><router-link to="/2020-01-31">2020/01/31 Episode #2</router-link></li>

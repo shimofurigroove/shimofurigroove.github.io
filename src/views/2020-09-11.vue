@@ -6,7 +6,7 @@
         <section>
             <div class="page-header" id="banner">
                 <div class="my-4">
-                    <h1>🍖米沢のDJイベント、霜降りGROOVE episode #4</h1>
+                    <h1>🍖米沢のDJイベント、霜降りGROOVE episode #5</h1>
                     <p>ご来場くださった方、配信見てくださった方、Arbさんありがとうございました！DJで参加のHICHAさん、もらけさん、いつもありがとうございます！<br>
                     飲みすぎましたー<br>
                     当日ライブ配信していた動画は<a href="https://twitcasting.tv/livearb/movie/640005998" target="_blank">「こちら」</a>。</p>
@@ -50,7 +50,7 @@ import Footer from '@/components/Footer.vue'
 export default {
   name: 'Home',
   metaInfo: {
-    title: '霜降りGROOVE episode #4',
+    title: '霜降りGROOVE episode #5',
     meta: [
       {
         name: "description",
@@ -58,7 +58,7 @@ export default {
       },
       {
         property: "og:url",
-        content: "https://shimofurigroove.github.io/2020-09-17"
+        content: "https://shimofurigroove.github.io/2020-09-11"
       },
       {
         property: "og:title",
@@ -79,7 +79,7 @@ export default {
   methods: {
     track () {
       this.$gtag.pageview({
-        page_path: '/2020-09-17',
+        page_path: '/2020-09-11',
       })
     }
   }
