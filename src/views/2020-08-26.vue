@@ -10,15 +10,13 @@
                     <p>ご参加くださいましたみなさんありがとうございました！DJで参加のHICHAさん、もらけさんありがとうございます！<br>
                     今回はしっかり解説もできたような気がします。</p>
                 </div>
-                <div class="row">
-                    <div class="col-md-4 col-6"><img src="/images/04/01.jpg" class="img-fluid"></div>
-                    <div class="col-md-4 col-6"><img src="/images/04/02.jpg" class="img-fluid"></div>
-                    <div class="col-md-4 col-6"><img src="/images/04/03.jpg" class="img-fluid"></div>
-                    <div class="col-md-4 col-6"><img src="/images/04/04.jpg" class="img-fluid"></div>
+                <div class="row img-gallery">
+                    <div class="col-6 col-md-4"><img src="/images/04/01.jpg" class="img-fluid"></div>
+                    <div class="col-6 col-md-4"><img src="/images/04/02.jpg" class="img-fluid"></div>
+                    <div class="col-6 col-md-4"><img src="/images/04/03.jpg" class="img-fluid"></div>
+                    <div class="col-6 col-md-4"><img src="/images/04/04.jpg" class="img-fluid"></div>
                 </div>
             </div>
-        </section>
-        <section>
             <div class="row">
                 <div class="col-md-6">
                     <p><a href="/images/04/flyer.jpg" target="_blank"><img src="/images/04/flyer.jpg" class="img-fluid"></a></p>

@@ -9,16 +9,14 @@
                     <h1>🍖米沢のDJイベント、霜降りGROOVE episode #2</h1>
                     <p>ご参加くださいましたみなさんありがとうございました！DJに興味をもった方増えてくれましたでしょうか？また、フリーDJでは、様々なジャンルの音楽を聞けて、とても刺激になりました！また次回も是非開催したいですね。</p>
                 </div>
-                <div class="row">
-                    <div class="col-md-4 col-6"><img src="/images/02/05.jpg" class="img-fluid"><br>Jpopでつないでみよう！</div>
-                    <div class="col-md-4 col-6"><img src="/images/02/01.jpg" class="img-fluid"><br>店員さんもDJ体験。</div>
-                    <div class="col-md-4 col-6"><img src="/images/02/04.jpg" class="img-fluid"><br>Launch Pad Mini MK3でフィンガードラム。</div>
-                    <div class="col-md-4 col-6"><img src="/images/02/02.jpg" class="img-fluid"><br>フリーDJにご参加くださった皆様ありがとうございます！</div>
-                    <div class="col-md-4 col-6"><img src="/images/02/03.jpg" class="img-fluid"><br>いろんなジャンルの音楽を聞くことができました。</div>
+                <div class="row img-gallery">
+                    <div class="col-6 col-md-4"><img src="/images/02/05.jpg" class="img-fluid"><br>Jpopでつないでみよう！</div>
+                    <div class="col-6 col-md-4"><img src="/images/02/01.jpg" class="img-fluid"><br>店員さんもDJ体験。</div>
+                    <div class="col-6 col-md-4"><img src="/images/02/04.jpg" class="img-fluid"><br>Launch Pad Mini MK3でフィンガードラム。</div>
+                    <div class="col-6 col-md-4"><img src="/images/02/02.jpg" class="img-fluid"><br>フリーDJにご参加くださった皆様ありがとうございます！</div>
+                    <div class="col-6 col-md-4"><img src="/images/02/03.jpg" class="img-fluid"><br>いろんなジャンルの音楽を聞くことができました。</div>
                 </div>
             </div>
-        </section>
-        <section>
             <div class="row">
                 <div class="col-md-6">
                     <p><a href="/images/02/flyer.png" target="_blank"><img src="/images/02/flyer.png" class="img-fluid"></a></p>

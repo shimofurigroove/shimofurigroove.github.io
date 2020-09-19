@@ -9,12 +9,10 @@
                     <h1>🍖米沢のDJイベント、霜降りGROOVE episode #3</h1>
                     <p>ご参加くださいましたみなさんありがとうございました！B'zで大盛りあがりな一夜でした笑。</p>
                 </div>
-                <div class="row">
-                    <div class="col-md-4 col-6"><img src="/images/03/01.jpg" class="img-fluid"></div>
+                <div class="row img-gallery">
+                    <div class="col-6 col-md-4"><img src="/images/03/01.jpg" class="img-fluid"></div>
                 </div>
             </div>
-        </section>
-        <section>
             <div class="row">
                 <div class="col-md-6">
                     <p><a href="/images/03/flyer.jpg" target="_blank"><img src="/images/03/flyer.jpg" class="img-fluid"></a></p>
