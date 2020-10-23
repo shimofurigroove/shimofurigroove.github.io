@@ -56,7 +56,7 @@ export default {
     meta: [
       {
         name: "description",
-        content: "久しぶりのLive Arbさん！お越しくださった方、配信みてくださった方、誠にありがとうございました！"
+        content: "お越しくださった方、配信みてくださった方、誠にありがとうございました！"
       },
       {
         property: "og:url",
@@ -68,7 +68,7 @@ export default {
       },
       {
         property: "og:description",
-        content: "久しぶりのLive Arbさん！お越しくださった方、配信みてくださった方、誠にありがとうございました！"
+        content: "お越しくださった方、配信みてくださった方、誠にありがとうございました！"
       }
     ]
   },
