@@ -21,31 +21,16 @@
         <section>
             <h2 id="events">🦅開催予定 Upcoming Events</h2>
             <div class="row">
-                <div class="col-md-6">
-                    <p><a href="/images/06/flyer_01.jpg" target="_blank"><img src="/images/06/flyer_01.png" class="img-fluid"></a></p>
-                </div>
-                <div class="col-md-6">
-                    <p>
-                        Wax on wax off<br>
-                        ミスターミヤギの言葉を胸に、日々レコードを擦る霜降り道場。<br>
-                        <br>
-                        DJ好きや、DJに興味がある方、一緒に練習しませんか？<br>
-                        Open DJの時間では、レコード、PC、コントローラーなど持参していただき自由にDJしてOKです。<br>
-                        ※Open DJは先着順です。時間や進行の都合上、DJできない場合もあります。ご了承ください。🙇<br>
-                        <br>
-                        常設予定の機器<br>
-                        SL-1200MK3 x 2、DJM-S3、Traktor Scratch A6、Traktor Kontrol X1MK2<br>
-                        <br>
-                        配信するかもしれません。
-                    </p>
-                    <div class='embed-container'><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12591.061337750092!2d140.1117743!3d37.9125474!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x44f6ae37e307a919!2z6YeR54aK6aOf5aCC!5e0!3m2!1sja!2sjp!4v1576427433769!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div>
+                <div class="col-md-12">
+                  <p>2020/11/06@LIVE ARB [b:arb]さんで開催予定です。<br>
+                      2020/12/25@金熊食堂さんで開催予定です。</p>
                 </div>
             </div>
         </section>
         <section>
             <h2 id="movie">🍒配信 Live Stream</h2>
-            <p>過去回の配信道をアーカイブしてます。</p>
-            <p>Check out the archives of the live streams from the link below.</p>
+            <p>過去回の配信動画をアーカイブしてます。</p>
+            <p>Check out the archives of the live streams from the links below.</p>
             <p class="text-center">
                 <a class="btn btn-primary" href="https://www.pscp.tv/ShimofuriGroove/" target="_blank" role="button">Periscope</a>
             </p>
@@ -56,6 +41,7 @@
         <section>
             <h2 id="archive">⛄️過去回 Archives</h2>
             <ul>
+                <li><router-link to="/2020-10-21">2020/10/21 Episode #6</router-link></li>
                 <li><router-link to="/2020-09-11">2020/09/11 Episode #5</router-link></li>
                 <li><router-link to="/2020-08-26">2020/08/26 Episode #4</router-link></li>
                 <li><router-link to="/2020-07-22">2020/07/22 Episode #3</router-link></li>
