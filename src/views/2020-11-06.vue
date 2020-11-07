@@ -30,7 +30,10 @@
                       <br>
                       今回は30分交代を2巡するタイムテーブルでしたが、出番が2回あるとお酒を呑み過ぎないのでとてもよかったです。<br><br>
                       イベントを重ねるごとにフライヤーの迷走感が増してきてる点も、注目ポイントです。<br><br>
-                      終盤にHICHAさんがケツメイシの手紙を流した時は、泣きそうになりました。ノスタルジックな気持ちを数日引きずるかと思います（さがわ談）。
+                      終盤にHICHAさんがケツメイシの手紙を流した時は、泣きそうになりました。ノスタルジックな気持ちを数日引きずるかと思います。
+                      <br>
+                      <br>
+                      （以上、さがわ談）
                     </p>
                     <div class='embed-container'><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3147.8016911132613!2d140.1099035!3d37.9116977!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8af03ec396aaab%3A0x30deca2d8b11396b!2sLive%20ARB!5e0!3m2!1sja!2sjp!4v1572711206202!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div>
                     <BackToTop/>
