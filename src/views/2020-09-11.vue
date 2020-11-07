@@ -12,8 +12,8 @@
                     当日ライブ配信していた動画は<a href="https://twitcasting.tv/livearb/movie/640005998" target="_blank">「こちら」</a>。</p>
                 </div>
                 <div class="row img-gallery">
-                    <div class="col-6 col-md-4"><img src="/images/05/01.jpg" class="img-fluid"></div>
-                    <div class="col-6 col-md-4"><img src="/images/05/02.jpg" class="img-fluid"></div>
+                    <div class="col-6 col-md-4"><img src="/images/05/01.png" class="img-fluid"></div>
+                    <div class="col-6 col-md-4"><img src="/images/05/02.png" class="img-fluid"></div>
                     <div class="col-6 col-md-4"><img src="/images/05/03.jpg" class="img-fluid"></div>
                 </div>
             </div>
