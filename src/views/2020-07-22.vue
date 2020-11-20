@@ -46,7 +46,7 @@ import Footer from '@/components/Footer.vue'
 export default {
   name: 'Home',
   metaInfo: {
-    title: '霜降りGROOVE episode #3',
+    title: '山形県米沢市のDJイベント、霜降りGROOVE episode #3 | Shimofuri Groove, DJ event based in Yonezawa Yamagata',
     meta: [
       {
         name: "description",
@@ -58,7 +58,7 @@ export default {
       },
       {
         property: "og:title",
-        content: "霜降りGROOVE episode #3"
+        content: "山形県米沢市のDJイベント、霜降りGROOVE episode #3 | Shimofuri Groove, DJ event based in Yonezawa Yamagata"
       },
       {
         property: "og:description",
