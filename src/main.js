@@ -10,7 +10,7 @@ Vue.use(smoothScroll)
 
 Vue.use(VueGtag, {
   config: { id: "UA-151890460-1" }
-})
+});
 
 Vue.config.productionTip = false
 

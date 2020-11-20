@@ -6,22 +6,22 @@
         <section>
             <div class="page-header" id="banner">
                 <div class="my-4">
-                    <h1>🍖米沢のDJイベント、霜降りGROOVE episode #6</h1>
+                    <h1>🍖米沢のDJイベント、霜降りGROOVE episode #7</h1>
                     <p>ご来場くださった方、配信見てくださった方、Live Arbさんありがとうございました！<br>
                     DJで参加のHICHAさん、もらけさん、いつもありがとうございます！<br>
                     当日ライブ配信のアーカイブは、<a href="https://twitcasting.tv/livearb/movie/649856545" target="_blank">「こちら」</a>。
                     </p>
                 </div>
-                <div class="row img-gallery">
-                    <div class="col-6 col-md-3"><img src="/images/07/01.png" class="img-fluid"></div>
-                    <div class="col-6 col-md-3"><img src="/images/07/02.png" class="img-fluid"></div>
-                    <div class="col-6 col-md-3"><img src="/images/07/03.png" class="img-fluid"></div>
-                    <div class="col-6 col-md-3"><img src="/images/07/04.png" class="img-fluid"></div>
-                </div>
+                <ul class="img-gallery">
+                    <li><img src="/images/07/01.png"></li>
+                    <li><img src="/images/07/02.png"></li>
+                    <li><img src="/images/07/03.png"></li>
+                    <li><img src="/images/07/04.png"></li>
+                </ul>
             </div>
             <div class="row">
                 <div class="col-md-6">
-                    <p><a href="https://twitcasting.tv/livearb/movie/649856545" target="_blank"><img src="/images/07/flyer.png" class="img-fluid"></a></p>
+                    <p><a href="https://twitcasting.tv/livearb/movie/649856545" target="_blank"><img src="/images/07/flyer.png"></a></p>
                 </div>
                 <div class="col-md-6">
                     <p>

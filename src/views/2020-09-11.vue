@@ -11,15 +11,15 @@
                     飲みすぎましたー<br>
                     当日ライブ配信していた動画は<a href="https://twitcasting.tv/livearb/movie/640005998" target="_blank">「こちら」</a>。</p>
                 </div>
-                <div class="row img-gallery">
-                    <div class="col-6 col-md-4"><img src="/images/05/01.png" class="img-fluid"></div>
-                    <div class="col-6 col-md-4"><img src="/images/05/02.png" class="img-fluid"></div>
-                    <div class="col-6 col-md-4"><img src="/images/05/03.jpg" class="img-fluid"></div>
-                </div>
+                <ul class="img-gallery">
+                    <li><img src="/images/05/01.png"></li>
+                    <li><img src="/images/05/02.png"></li>
+                    <li><img src="/images/05/03.jpg"></li>
+                </ul>
             </div>
             <div class="row">
                 <div class="col-md-6">
-                    <p><a href="https://twitcasting.tv/livearb/movie/640005998" target="_blank"><img src="/images/05/flyer.jpg" class="img-fluid"></a><br>
+                    <p><a href="https://twitcasting.tv/livearb/movie/640005998" target="_blank"><img src="/images/05/flyer.jpg"></a><br>
                     当日ライブ配信していた動画は<a href="https://twitcasting.tv/livearb/movie/640005998" target="_blank">「こちら」</a>
                     </p>
                 </div>

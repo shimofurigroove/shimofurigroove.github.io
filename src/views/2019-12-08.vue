@@ -15,7 +15,7 @@
         <section>
             <div class="row">
                 <div class="col-md-6">
-                    <p><a href="/images/01/flyer_v5.png" target="_blank"><img src="/images/01/flyer_v5.png" class="img-fluid"></a></p>
+                    <p><a href="/images/01/flyer_v5.png" target="_blank"><img src="/images/01/flyer_v5.png"></a></p>
                 </div>
                 <div class="col-md-6">
                     <p>

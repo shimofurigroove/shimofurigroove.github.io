@@ -1,14 +1,16 @@
+@import "~bootstrap/scss/bootstrap";
+
 @font-face {
-    font-family: 'Dunkin Bold';
+    font-family: "Dunkin Bold";
     font-style: normal;
     font-weight: normal;
-    src: local('Dunkin Bold'), url('~@/assets/fonts/Dunkin Bold.woff') format('woff');
+    src: local("Dunkin Bold"), url("~@/assets/fonts/Dunkin Bold.woff") format("woff");
 }
 
 body {
     background-color: transparent;
-    font-family: 'Noto Sans JP', sans-serif;
-    letter-spacing: .2rem;
+    font-family: "Noto Sans JP", sans-serif;
+    letter-spacing: 0.2rem;
     line-height: 1.8rem;
     color: #2b2b28;
 }
@@ -18,12 +20,12 @@ header {
 }
 
 .navbar {
-    padding: .6rem 1rem;
+    padding: 0.6rem 1rem;
 }
 
 .dunkin {
-    font-family: 'Dunkin Bold';
-    letter-spacing: .1rem;
+    font-family: "Dunkin Bold";
+    letter-spacing: 0.1rem;
 }
 
 .navbar-brand {
@@ -62,7 +64,7 @@ header {
         content: "";
         border-bottom-style: solid;
         border-bottom-width: 1px;
-        transition: width .2s;
+        transition: width 0.2s;
     }
 }
 
@@ -94,12 +96,13 @@ h3 {
     font-size: 1.5rem;
 }
 
-section {
-    margin-bottom: 3rem;
+img {
+    max-width: 100%;
+    height: auto;
 }
 
-.img-gallery .col-6 {
-    margin-bottom: 30px;
+section {
+    margin-bottom: 3rem;
 }
 
 footer {
@@ -107,6 +110,50 @@ footer {
     padding-top: 4rem;
     background-color: #2b2b28;
     color: #f8f8f8;
+}
+
+.img-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+    list-style: none;
+
+    &:after {
+        content: "";
+        display: block;
+        width: 32%;
+        height: 0;
+    }
+    a {
+        opacity: 0.9;
+        &:hover {
+            opacity: 1;
+        }
+    }
+    li {
+        width: 32%;
+        margin-bottom: 1.5rem;
+        position: relative;
+    }
+    @include media-breakpoint-down(sm) {
+        li {
+            width: 47%;
+        }
+    }
+
+    &.video-gallery {
+        a:before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-image: url(/images/play.png);
+            background-repeat: no-repeat;
+            background-size: 20%;
+            background-position: center;
+        }
+    }
 }
 
 /**
@@ -160,7 +207,7 @@ footer {
 
 @media (max-width: 768px) {
     .navbar-brand {
-        font-size: .8rem;
+        font-size: 0.8rem;
     }
     .navbar-nav {
         background-color: #fff;

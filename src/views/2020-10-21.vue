@@ -15,7 +15,7 @@
             </div>
             <div class="row">
                 <div class="col-md-6">
-                    <p><a href="https://www.pscp.tv/ShimofuriGroove/1BdGYnrzMwEJX" target="_blank"><img src="/images/06/flyer_01.png" class="img-fluid"></a><br>
+                    <p><a href="https://www.pscp.tv/ShimofuriGroove/1BdGYnrzMwEJX" target="_blank"><img src="/images/06/flyer_01.png"></a><br>
                     当日ライブ配信していた会場の様子は<a href="https://www.pscp.tv/ShimofuriGroove/1BdGYnrzMwEJX" target="_blank">「こちら」</a></p>
                 </div>
                 <div class="col-md-6">
