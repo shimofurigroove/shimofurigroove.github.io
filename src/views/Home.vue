@@ -7,10 +7,14 @@
         <div class="page-header" id="banner">
           <div class="my-4">
             <h1>
-              🍖米沢のDJイベント、霜降り<span class="dunkin">GROOVE</span>
+              🍖米沢のDJイベント、霜降り
+              <span class="dunkin">GROOVE</span>
             </h1>
+            <rotate-beef></rotate-beef>
             <p>
-              各DJが今一番ハマってる、贅沢ジューシーな音楽をセレクト。<br />好きなジャンルを楽しんだり、敢えて普段は聞かないジャンルを聞いて、新たな発見をしたり。お気軽にお楽しみください。
+              各DJが今一番ハマってる、贅沢ジューシーな音楽をセレクト。
+              <br />
+              好きなジャンルを楽しんだり、敢えて普段は聞かないジャンルを聞いて、新たな発見をしたり。お気軽にお楽しみください。
             </p>
             <p>
               Shimofuri Groove, a DJ event based in Yonezawa."Shimofuri" means
@@ -36,14 +40,18 @@
       </section>
       <section id="events">
         <h2>🦅開催予定 Upcoming Events</h2>
-        <div class="row">
-          <div class="col-md-12">
-            <p>
-              2020/12/19（土）@LIVE ARBさんでDJイベント開催予定です。<br />
-              2020/12/25（金）@金熊食堂さんでDJ体験、オープンDJブース（フリーDJ）開催予定です。
+        <ul class="date-list">
+          <li>
+            <p class="date">2020.12.19 sat</p>
+            <p class="info">@LIVE ARBさん DJイベント</p>
+          </li>
+          <li>
+            <p class="date">2020.12.25 fri</p>
+            <p class="info">
+              @金熊食堂さん DJ体験、オープンDJブース（フリーDJ）
             </p>
-          </div>
-        </div>
+          </li>
+        </ul>
       </section>
       <section id="movie">
         <h2>🍒配信 Live Stream</h2>
@@ -51,24 +59,36 @@
         <p>Check out the archives of the live streams from the links below.</p>
         <ul class="img-gallery video-gallery">
           <li>
-            <a href="https://twitcasting.tv/livearb/movie/649856545" target="_blank">
-              <img src="https://twitcasting.tv/livearb/thumb/649856545">
+            <a
+              href="https://twitcasting.tv/livearb/movie/649856545"
+              target="_blank"
+              ><img src="https://twitcasting.tv/livearb/thumb/649856545" />
             </a>
+            <p>2020.11.06 Episode #7</p>
           </li>
           <li>
-            <a href="https://www.pscp.tv/ShimofuriGroove/1BdGYnrzMwEJX" target="_blank">
-              <img src="/images/06/periscope_cover_06.jpg">
+            <a
+              href="https://www.pscp.tv/ShimofuriGroove/1BdGYnrzMwEJX"
+              target="_blank"
+              ><img src="/images/06/periscope_cover_06.jpg" />
             </a>
+            <p>2020.10.21 Episode #6</p>
           </li>
           <li>
-            <a href="https://twitcasting.tv/livearb/movie/640005998" target="_blank">
-              <img src="https://twitcasting.tv/livearb/thumb/640005998">
+            <a
+              href="https://twitcasting.tv/livearb/movie/640005998"
+              target="_blank"
+              ><img src="https://twitcasting.tv/livearb/thumb/640005998" />
             </a>
+            <p>2020.09.11 Episode #5</p>
           </li>
           <li>
-            <a href="https://www.pscp.tv/ShimofuriGroove/1MYxNPylzPLGw" target="_blank">
-              <img src="/images/01/periscope_cover_01.jpg">
+            <a
+              href="https://www.pscp.tv/ShimofuriGroove/1MYxNPylzPLGw"
+              target="_blank"
+              ><img src="/images/01/periscope_cover_01.jpg" />
             </a>
+            <p>2020.12.08 Episode #1</p>
           </li>
         </ul>
       </section>
@@ -79,37 +99,37 @@
         <ul class="img-gallery">
           <li>
             <router-link to="/2020-11-06">
-              <img src="/images/07/flyer.png">
+              <img src="/images/07/flyer.png" />
             </router-link>
           </li>
           <li>
             <router-link to="/2020-10-21">
-              <img src="/images/06/flyer_01.png">
+              <img src="/images/06/flyer_01.png" />
             </router-link>
           </li>
           <li>
             <router-link to="/2020-09-11">
-              <img src="/images/05/flyer.jpg">
+              <img src="/images/05/flyer.jpg" />
             </router-link>
           </li>
           <li>
             <router-link to="/2020-08-26">
-              <img src="/images/04/flyer.jpg">
+              <img src="/images/04/flyer.jpg" />
             </router-link>
           </li>
           <li>
             <router-link to="/2020-07-22">
-              <img src="/images/03/flyer.jpg">
+              <img src="/images/03/flyer.jpg" />
             </router-link>
           </li>
           <li>
             <router-link to="/2020-01-31">
-              <img src="/images/02/flyer.png">
+              <img src="/images/02/flyer.png" />
             </router-link>
           </li>
           <li>
             <router-link to="/2019-12-08">
-              <img src="/images/01/flyer_v5.png">
+              <img src="/images/01/flyer_v5.png" />
             </router-link>
           </li>
         </ul>
@@ -124,6 +144,7 @@
 import Layer from "@/components/Layer.vue";
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
+// import RotateBeef from "@/components/RotateBeef";
 
 export default {
   name: "Home",
@@ -131,6 +152,7 @@ export default {
     Layer,
     Header,
     Footer,
+    // RotateBeef,
   },
   methods: {
     track() {
