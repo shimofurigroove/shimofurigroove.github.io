@@ -10,7 +10,7 @@
               🍖米沢のDJイベント、霜降り
               <span class="dunkin">GROOVE</span>
             </h1>
-            <rotate-beef></rotate-beef>
+            <!-- <rotate-beef></rotate-beef> -->
             <p>
               各DJが今一番ハマってる、贅沢ジューシーな音楽をセレクト。
               <br />
@@ -26,20 +26,28 @@
           </div>
         </div>
       </section>
-      <section id="sns">
-        <h2>🐮SNS</h2>
-        <p class="text-center">
-          <a
-            class="btn btn-primary"
-            href="https://twitter.com/ShimofuriGroove"
-            target="_blank"
-            role="button"
-            >ついったー</a
-          >
-        </p>
-      </section>
       <section id="events">
         <h2>🦅開催予定 Upcoming Events</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <p>
+              <a
+                href="https://twitcasting.tv/livearb/"
+                target="_blank"
+                ><img src="/images/08/flyer.png"
+              /></a>
+            </p>
+          </div>
+          <div class="col-md-6">
+            <p>
+              豪華ゲストが更に増え、今回も様々なジャンルの音楽をお届けいたします！※あいにく今回は配信のみの予定です！<br />
+              ▼DJ<br />
+              YOSHIKI(caldera)、DJ TAN、くわけん、HICHA、もらけ、さがわ<br />
+              ▼SAX SESSION<br />
+              CHI3CHEE aka hikitch(BLACK SMOKER)
+            </p>
+          </div>
+        </div>
         <ul class="date-list">
           <li>
             <p class="date">2020.12.19 sat</p>
@@ -133,6 +141,18 @@
             </router-link>
           </li>
         </ul>
+      </section>
+      <section id="sns">
+        <h2>🐮SNS</h2>
+        <p class="text-center">
+          <a
+            class="btn btn-primary"
+            href="https://twitter.com/ShimofuriGroove"
+            target="_blank"
+            role="button"
+            >ついったー</a
+          >
+        </p>
       </section>
     </div>
     <Footer />

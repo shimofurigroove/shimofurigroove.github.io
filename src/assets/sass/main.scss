@@ -140,7 +140,7 @@ footer {
 
     p {
       margin: 0;
-      padding: .8rem 0 0;
+      padding: 0.8rem 0 0;
     }
   }
   @include media-breakpoint-down(sm) {
@@ -176,28 +176,34 @@ footer {
   margin: 0;
   li {
     display: flex;
+    align-items: center;
+    &:first-child {
+      margin-bottom: 1rem;
+    }
     p {
       font-weight: 900;
+    }
+    .date {
+      min-width: 10.5rem;
+      color: #fff;
+      font-size: 0.9rem;
+      text-align: center;
+      background-color: #b83938;
+      padding: 0.5rem 0.8rem;
+      margin: 0 0.8rem 0 0;
+      line-height: 1.2rem;
+    }
+    .info {
+      margin-bottom: 0;
     }
   }
   @include media-breakpoint-down(sm) {
     li {
       flex-wrap: wrap;
-      .date {
-        margin-bottom: .2rem;
-      }
       .info {
         width: 100%;
       }
     }
-  }
-  .date {
-    color: #fff;
-    font-size: .9rem;
-    text-align: center;
-    background-color: #b83938;
-    padding: 0 .8rem;
-    margin-right: .8rem;
   }
 }
 
