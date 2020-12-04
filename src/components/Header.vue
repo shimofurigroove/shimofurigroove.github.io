@@ -7,9 +7,6 @@
                 <div class="collapse navbar-collapse" id="navbar">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <router-link to="/#sns" class="nav-link" v-smooth-scroll>SNS</router-link>
-                        </li>
-                        <li class="nav-item">
                             <router-link to="/#events" class="nav-link" v-smooth-scroll>開催予定 Upcoming Events</router-link>
                         </li>
                         <li class="nav-item">
@@ -17,6 +14,9 @@
                         </li>
                         <li class="nav-item">
                             <router-link to="/#archive" class="nav-link" v-smooth-scroll>過去回 Archives</router-link>
+                        </li>
+                        <li class="nav-item">
+                            <router-link to="/#sns" class="nav-link" v-smooth-scroll>SNS</router-link>
                         </li>
                     </ul>
                 </div>

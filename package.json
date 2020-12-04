@@ -14,7 +14,8 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "three": "^0.122.0",
-    "vue-router": "^3.2.0"
+    "vue-router": "^3.2.0",
+    "vue-tweet-embed": "^2.4.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.4.0",

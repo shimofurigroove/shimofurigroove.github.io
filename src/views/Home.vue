@@ -1,162 +1,143 @@
 <template>
-  <div class="home">
-    <Layer />
-    <Header />
-    <div class="container">
-      <section>
-        <div class="page-header" id="banner">
-          <div class="my-4">
-            <h1>
-              🍖米沢のDJイベント、霜降り
-              <span class="dunkin">GROOVE</span>
-            </h1>
-            <!-- <rotate-beef></rotate-beef> -->
-            <p>
-              各DJが今一番ハマってる、贅沢ジューシーな音楽をセレクト。
-              <br />
-              好きなジャンルを楽しんだり、敢えて普段は聞かないジャンルを聞いて、新たな発見をしたり。お気軽にお楽しみください。
-            </p>
-            <p>
-              Shimofuri Groove, a DJ event based in Yonezawa."Shimofuri" means
-              marbled fat. It is a word commonly used to express high-ranking
-              beef, like Yonezawa beef, one of the three major Japanese beef
-              brands. In this DJ event, the DJ will serve you the fresh
-              shimofuri groove.
-            </p>
-          </div>
-        </div>
-      </section>
-      <section id="events">
-        <h2>🦅開催予定 Upcoming Events</h2>
-        <div class="row">
-          <div class="col-md-6">
-            <p>
-              <a
-                href="https://twitcasting.tv/livearb/"
-                target="_blank"
-                ><img src="/images/08/flyer.png"
-              /></a>
-            </p>
-          </div>
-          <div class="col-md-6">
-            <p>
-              豪華ゲストが更に増え、今回も様々なジャンルの音楽をお届けいたします！※あいにく今回は配信のみの予定です！<br />
-              ▼DJ<br />
-              YOSHIKI(caldera)、DJ TAN、くわけん、HICHA、もらけ、さがわ<br />
-              ▼SAX SESSION<br />
-              CHI3CHEE aka hikitch(BLACK SMOKER)
-            </p>
-          </div>
-        </div>
-        <ul class="date-list">
-          <li>
-            <p class="date">2020.12.19 sat</p>
-            <p class="info">@LIVE ARBさん DJイベント</p>
-          </li>
-          <li>
-            <p class="date">2020.12.25 fri</p>
-            <p class="info">
-              @金熊食堂さん DJ体験、オープンDJブース（フリーDJ）
-            </p>
-          </li>
-        </ul>
-      </section>
-      <section id="movie">
-        <h2>🍒配信 Live Stream</h2>
-        <p>以下、過去回の配信動画です。作業用BGMに是非！</p>
-        <p>Check out the archives of the live streams from the links below.</p>
-        <ul class="img-gallery video-gallery">
-          <li>
-            <a
-              href="https://twitcasting.tv/livearb/movie/649856545"
-              target="_blank"
-              ><img src="https://twitcasting.tv/livearb/thumb/649856545" />
-            </a>
-            <p>2020.11.06 Episode #7</p>
-          </li>
-          <li>
-            <a
-              href="https://www.pscp.tv/ShimofuriGroove/1BdGYnrzMwEJX"
-              target="_blank"
-              ><img src="/images/06/periscope_cover_06.jpg" />
-            </a>
-            <p>2020.10.21 Episode #6</p>
-          </li>
-          <li>
-            <a
-              href="https://twitcasting.tv/livearb/movie/640005998"
-              target="_blank"
-              ><img src="https://twitcasting.tv/livearb/thumb/640005998" />
-            </a>
-            <p>2020.09.11 Episode #5</p>
-          </li>
-          <li>
-            <a
-              href="https://www.pscp.tv/ShimofuriGroove/1MYxNPylzPLGw"
-              target="_blank"
-              ><img src="/images/01/periscope_cover_01.jpg" />
-            </a>
-            <p>2020.12.08 Episode #1</p>
-          </li>
-        </ul>
-      </section>
-      <section id="archive">
-        <h2>⛄️過去回 Archives</h2>
-        <p>過去回の詳細情報や当日の様子をご覧いただけます！</p>
-        <p>Click the flyers below for information and photos of past events.</p>
-        <ul class="img-gallery">
-          <li>
-            <router-link to="/2020-11-06">
-              <img src="/images/07/flyer.png" />
-            </router-link>
-          </li>
-          <li>
-            <router-link to="/2020-10-21">
-              <img src="/images/06/flyer_01.png" />
-            </router-link>
-          </li>
-          <li>
-            <router-link to="/2020-09-11">
-              <img src="/images/05/flyer.jpg" />
-            </router-link>
-          </li>
-          <li>
-            <router-link to="/2020-08-26">
-              <img src="/images/04/flyer.jpg" />
-            </router-link>
-          </li>
-          <li>
-            <router-link to="/2020-07-22">
-              <img src="/images/03/flyer.jpg" />
-            </router-link>
-          </li>
-          <li>
-            <router-link to="/2020-01-31">
-              <img src="/images/02/flyer.png" />
-            </router-link>
-          </li>
-          <li>
-            <router-link to="/2019-12-08">
-              <img src="/images/01/flyer_v5.png" />
-            </router-link>
-          </li>
-        </ul>
-      </section>
-      <section id="sns">
-        <h2>🐮SNS</h2>
-        <p class="text-center">
-          <a
-            class="btn btn-primary"
-            href="https://twitter.com/ShimofuriGroove"
-            target="_blank"
-            role="button"
-            >ついったー</a
-          >
-        </p>
-      </section>
-    </div>
-    <Footer />
-  </div>
+	<div class="home">
+		<Layer />
+		<Header />
+		<div class="container">
+			<section>
+				<div class="page-header" id="banner">
+					<div class="my-4">
+						<h1>
+							🍖米沢のDJイベント、霜降り
+							<span class="dunkin">GROOVE</span>
+						</h1>
+						<!-- <rotate-beef></rotate-beef> -->
+						<p>
+							各DJが今一番ハマってる、贅沢ジューシーな音楽をセレクト。
+							<br />
+							好きなジャンルを楽しんだり、敢えて普段は聞かないジャンルを聞いて、新たな発見をしたり。お気軽にお楽しみください。
+						</p>
+						<p>
+							Shimofuri Groove, a DJ event based in Yonezawa."Shimofuri" means marbled fat. It is a word commonly used to express
+							high-ranking beef, like Yonezawa beef, one of the three major Japanese beef brands. In this DJ event, the DJ will serve
+							you the fresh shimofuri groove.
+						</p>
+					</div>
+				</div>
+			</section>
+			<section id="events">
+				<h2>🦅開催予定 Upcoming Events</h2>
+				<div class="row">
+					<div class="col-md-6">
+						<p>
+							<a href="https://twitcasting.tv/livearb/" target="_blank"><img src="/images/08/flyer.png"/></a>
+						</p>
+					</div>
+					<div class="col-md-6">
+						<p>
+							豪華ゲストが更に増え、今回も様々なジャンルの音楽をお届けいたします！※あいにく今回は配信のみの予定です！<br />
+							▼DJ<br />
+							YOSHIKI(caldera)、DJ TAN、くわけん、HICHA、もらけ、さがわ<br />
+							▼SAX SESSION<br />
+							CHI3CHEE aka hikitch(BLACK SMOKER)
+						</p>
+					</div>
+				</div>
+				<ul class="date-list">
+					<li>
+						<p class="date">2020.12.19 sat</p>
+						<p class="info">@LIVE ARBさん DJイベント</p>
+					</li>
+					<li>
+						<p class="date">2020.12.25 fri</p>
+						<p class="info">
+							@金熊食堂さん DJ体験、オープンDJブース（フリーDJ）
+						</p>
+					</li>
+				</ul>
+			</section>
+			<section id="movie">
+				<h2>🍒配信 Live Stream</h2>
+				<p>以下、過去回の配信動画です。作業用BGMに是非！</p>
+				<p>Check out the archives of the live streams from the links below.</p>
+				<ul class="img-gallery video-gallery">
+					<li>
+						<a href="https://twitcasting.tv/livearb/movie/649856545" target="_blank"
+							><img src="https://twitcasting.tv/livearb/thumb/649856545" />
+						</a>
+						<p>2020.11.06 Episode #7</p>
+					</li>
+					<li>
+						<a href="https://www.pscp.tv/ShimofuriGroove/1BdGYnrzMwEJX" target="_blank"
+							><img src="/images/06/periscope_cover_06.jpg" />
+						</a>
+						<p>2020.10.21 Episode #6</p>
+					</li>
+					<li>
+						<a href="https://twitcasting.tv/livearb/movie/640005998" target="_blank"
+							><img src="https://twitcasting.tv/livearb/thumb/640005998" />
+						</a>
+						<p>2020.09.11 Episode #5</p>
+					</li>
+					<li>
+						<a href="https://www.pscp.tv/ShimofuriGroove/1MYxNPylzPLGw" target="_blank"
+							><img src="/images/01/periscope_cover_01.jpg" />
+						</a>
+						<p>2019.12.08 Episode #1</p>
+					</li>
+				</ul>
+			</section>
+			<section id="archive">
+				<h2>⛄️過去回 Archives</h2>
+				<p>過去回の詳細情報や当日の様子をご覧いただけます！</p>
+				<p>Click the flyers below for information and photos of past events.</p>
+				<ul class="img-gallery">
+					<li>
+						<router-link to="/2020-11-06">
+							<img src="/images/07/flyer.png" />
+						</router-link>
+					</li>
+					<li>
+						<router-link to="/2020-10-21">
+							<img src="/images/06/flyer_01.png" />
+						</router-link>
+					</li>
+					<li>
+						<router-link to="/2020-09-11">
+							<img src="/images/05/flyer.jpg" />
+						</router-link>
+					</li>
+					<li>
+						<router-link to="/2020-08-26">
+							<img src="/images/04/flyer.jpg" />
+						</router-link>
+					</li>
+					<li>
+						<router-link to="/2020-07-22">
+							<img src="/images/03/flyer.jpg" />
+						</router-link>
+					</li>
+					<li>
+						<router-link to="/2020-01-31">
+							<img src="/images/02/flyer.png" />
+						</router-link>
+					</li>
+					<li>
+						<router-link to="/2019-12-08">
+							<img src="/images/01/flyer_v5.png" />
+						</router-link>
+					</li>
+				</ul>
+			</section>
+			<section id="sns">
+				<h2>🐮SNS</h2>
+				<p class="text-center">
+					<a class="btn btn-primary" href="https://twitter.com/ShimofuriGroove" target="_blank" role="button">Twitter</a>
+				</p>
+        <Tweet id="ShimofuriGroove"></Tweet>
+			</section>
+		</div>
+		<Footer />
+	</div>
 </template>
 
 <script>
@@ -165,21 +146,23 @@ import Layer from "@/components/Layer.vue";
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
 // import RotateBeef from "@/components/RotateBeef";
+import Tweet from '@/components/TwitterPanel.vue';
 
 export default {
-  name: "Home",
-  components: {
-    Layer,
-    Header,
-    Footer,
-    // RotateBeef,
-  },
-  methods: {
-    track() {
-      this.$gtag.pageview({
-        page_path: "/",
-      });
-    },
-  },
+	name: "Home",
+	components: {
+		Layer,
+		Header,
+		Footer,
+		// RotateBeef,
+		Tweet,
+	},
+	methods: {
+		track() {
+			this.$gtag.pageview({
+				page_path: "/",
+			});
+		},
+	},
 };
 </script>
