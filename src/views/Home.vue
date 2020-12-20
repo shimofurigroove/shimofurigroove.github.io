@@ -26,27 +26,7 @@
 			</section>
 			<section id="events">
 				<h2>🦅開催予定 Upcoming Events</h2>
-				<div class="row">
-					<div class="col-md-6">
-						<p>
-							<a href="https://twitcasting.tv/livearb/" target="_blank"><img src="/images/08/flyer.png"/></a>
-						</p>
-					</div>
-					<div class="col-md-6">
-						<p>
-							豪華ゲストが更に増え、今回も様々なジャンルの音楽をお届けいたします！※あいにく今回は配信のみの予定です！<br />
-							▼DJ<br />
-							YOSHIKI(caldera)、DJ TAN、くわけん、HICHA、もらけ、さがわ<br />
-							▼SAX SESSION<br />
-							CHI3CHEE aka hikitch(BLACK SMOKER)
-						</p>
-					</div>
-				</div>
 				<ul class="date-list">
-					<li>
-						<p class="date">2020.12.19 sat</p>
-						<p class="info">@LIVE ARBさん DJイベント</p>
-					</li>
 					<li>
 						<p class="date">2020.12.25 fri</p>
 						<p class="info">
@@ -60,6 +40,12 @@
 				<p>以下、過去回の配信動画です。作業用BGMに是非！</p>
 				<p>Check out the archives of the live streams from the links below.</p>
 				<ul class="img-gallery video-gallery">
+					<li>
+						<a href="https://twitcasting.tv/livearb/movie/657171565" target="_blank"
+							><img src="https://twitcasting.tv/livearb/thumb/657171565" />
+						</a>
+						<p>2020.12.19 Episode #8</p>
+					</li>
 					<li>
 						<a href="https://twitcasting.tv/livearb/movie/649856545" target="_blank"
 							><img src="https://twitcasting.tv/livearb/thumb/649856545" />
@@ -91,6 +77,11 @@
 				<p>過去回の詳細情報や当日の様子をご覧いただけます！</p>
 				<p>Click the flyers below for information and photos of past events.</p>
 				<ul class="img-gallery">
+					<li>
+						<router-link to="/2020-12-19">
+							<img src="/images/08/flyer.png" />
+						</router-link>
+					</li>
 					<li>
 						<router-link to="/2020-11-06">
 							<img src="/images/07/flyer.png" />
