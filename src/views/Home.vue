@@ -26,6 +26,22 @@
 			</section>
 			<section id="events">
 				<h2>🦅開催予定 Upcoming Events</h2>
+				<div class="row">
+					<div class="col-md-6">
+						<p><img src="/images/09/flyer.png" /></p>
+					</div>
+					<div class="col-md-6">
+						<p>
+							クリスマスでも休まず、修行に励む霜降り道場。<br />
+							DJ好きや、DJに興味がある方、一緒に練習しませんか？<br />
+							Open DJの時間では、PC、コントローラーなど持参していただき自由にDJしてOKです。<br />
+							※ご連絡先をご記入いただいた後、Open DJにご参加ください。<br />
+							※Open DJは先着順です。時間や進行の都合上、DJできない場合もあります。ご了承ください。<br /><br />
+							▼DJ<br />
+							さがわ and more?
+						</p>
+					</div>
+				</div>
 				<ul class="date-list">
 					<li>
 						<p class="date">2020.12.25 fri</p>
@@ -124,7 +140,7 @@
 				<p class="text-center">
 					<a class="btn btn-primary" href="https://twitter.com/ShimofuriGroove" target="_blank" role="button">Twitter</a>
 				</p>
-        <Tweet id="ShimofuriGroove"></Tweet>
+				<Tweet id="ShimofuriGroove"></Tweet>
 			</section>
 		</div>
 		<Footer />
@@ -137,7 +153,7 @@ import Layer from "@/components/Layer.vue";
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
 // import RotateBeef from "@/components/RotateBeef";
-import Tweet from '@/components/TwitterPanel.vue';
+import Tweet from "@/components/TwitterPanel.vue";
 
 export default {
 	name: "Home",
