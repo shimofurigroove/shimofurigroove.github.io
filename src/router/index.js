@@ -52,6 +52,11 @@ const routes = [
     path: '/2020-12-19',
     name: '山形県米沢市のDJイベント、霜降りGROOVE episode #8 | Shimofuri Groove, DJ event based in Yonezawa Yamagata',
     component: () => import('../views/2020-12-19.vue')
+  },
+  {
+    path: '/2020-12-25',
+    name: '山形県米沢市のDJイベント、霜降りGROOVE episode #9 | Shimofuri Groove, DJ event based in Yonezawa Yamagata',
+    component: () => import('../views/2020-12-25.vue')
   }
 ]
 

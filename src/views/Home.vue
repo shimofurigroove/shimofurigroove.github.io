@@ -26,25 +26,9 @@
 			</section>
 			<section id="events">
 				<h2>🦅開催予定 Upcoming Events</h2>
-				<div class="row">
-					<div class="col-md-6">
-						<p><img src="/images/09/flyer.png" /></p>
-					</div>
-					<div class="col-md-6">
-						<p>
-							クリスマスでも休まず、修行に励む霜降り道場。<br />
-							DJ好きや、DJに興味がある方、一緒に練習しませんか？<br />
-							Open DJの時間では、PC、コントローラーなど持参していただき自由にDJしてOKです。<br />
-							※ご連絡先をご記入いただいた後、Open DJにご参加ください。<br />
-							※Open DJは先着順です。時間や進行の都合上、DJできない場合もあります。ご了承ください。<br /><br />
-							▼DJ<br />
-							さがわ and more?
-						</p>
-					</div>
-				</div>
 				<ul class="date-list">
 					<li>
-						<p class="date">2020.12.25 fri</p>
+						<p class="date">2021.01.27 wed</p>
 						<p class="info">
 							@金熊食堂さん DJ体験、オープンDJブース（フリーDJ）
 						</p>
@@ -93,6 +77,11 @@
 				<p>過去回の詳細情報や当日の様子をご覧いただけます！</p>
 				<p>Click the flyers below for information and photos of past events.</p>
 				<ul class="img-gallery">
+					<li>
+						<router-link to="/2020-12-25">
+							<img src="/images/09/flyer.png" />
+						</router-link>
+					</li>
 					<li>
 						<router-link to="/2020-12-19">
 							<img src="/images/08/flyer.png" />
