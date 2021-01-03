@@ -30,7 +30,13 @@
 					<li>
 						<p class="date">2021.01.27 wed</p>
 						<p class="info">
-							@金熊食堂さん DJ体験、オープンDJブース（フリーDJ）
+							@金熊食堂 DJ体験、オープンDJブース（フリーDJ）
+						</p>
+					</li>
+					<li>
+						<p class="date">2021.02.26 fri</p>
+						<p class="info">
+							@LIVE ARB [b:arb]
 						</p>
 					</li>
 				</ul>
