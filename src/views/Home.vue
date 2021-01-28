@@ -84,6 +84,11 @@
 				<p>Click the flyers below for information and photos of past events.</p>
 				<ul class="img-gallery">
 					<li>
+						<router-link to="/2021-01-27">
+							<img src="/images/10/flyer.png" />
+						</router-link>
+					</li>
+					<li>
 						<router-link to="/2020-12-25">
 							<img src="/images/09/flyer.png" />
 						</router-link>
