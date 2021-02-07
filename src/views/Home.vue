@@ -26,7 +26,26 @@
 			</section>
 			<section id="events">
 				<h2>🦅開催予定 Upcoming Events</h2>
+				<div class="row">
+					<div class="col-md-6">
+						<p><img src="/images/11/flyer.png" /></p>
+					</div>
+					<div class="col-md-6">
+						<p>
+							カフェラボさんで初イベントです！体調に十分注意して、美味しいドリンクやスイーツと一緒にDJを楽しみましょー。
+						</p>
+						<div class="embed-container">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12590.587847422114!2d140.1100125!3d37.9153138!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdf7409470d44e9b!2sCAFE%20LABORATORY!5e0!3m2!1sja!2sjp!4v1612671790829!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+						</div>
+					</div>
+				</div>
 				<ul class="date-list">
+					<li>
+						<p class="date">2021.02.20 sat</p>
+						<p class="info">
+							@CAFE LABORATORY DJ体験、オープンDJブース（フリーDJ）
+						</p>
+					</li>
 					<li>
 						<p class="date">2021.02.26 fri</p>
 						<p class="info">
