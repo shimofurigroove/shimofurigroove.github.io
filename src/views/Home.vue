@@ -28,58 +28,21 @@
 				<h2>🦅開催予定 Upcoming Events</h2>
 				<ul class="date-list">
 					<li>
-						<p class="date">2021.02.20 sat</p>
-						<div class="row">
-							<div class="col-md-6">
-								<p><img src="/images/11/flyer.png" /></p>
-							</div>
-							<div class="col-md-6">
-								<p>
-									カフェラボさんで初イベントです！体調に十分注意して、美味しいドリンクやスイーツと一緒にDJを楽しみましょー。
-								</p>
-								<div class="embed-container">
-									<iframe
-										src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12590.587847422114!2d140.1100125!3d37.9153138!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdf7409470d44e9b!2sCAFE%20LABORATORY!5e0!3m2!1sja!2sjp!4v1612671790829!5m2!1sja!2sjp"
-										width="600"
-										height="450"
-										frameborder="0"
-										style="border:0;"
-										allowfullscreen=""
-										aria-hidden="false"
-										tabindex="0"
-									></iframe>
-								</div>
-							</div>
-						</div>
-					</li>
-					<li>
-						<p class="date">2021.02.26 fri</p>
-						<div class="row">
-							<div class="col-md-6">
-								<p><img src="/images/12/flyer.png" /></p>
-							</div>
-							<div class="col-md-6">
-								<p>
-									2021年初アーブさん！あいにくの配信オンリーですが、ぜひみなさんのベストプレイスでDJのオススメの楽曲をお気軽にお楽しみください！<br>
-									当日ライブ配信は、<a href="https://twitcasting.tv/livearb/" target="_blank">「こちら」</a>でご覧いただけます。
-								</p>
-								<div class="embed-container">
-									<iframe
-										src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3147.8016911132613!2d140.1099035!3d37.9116977!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8af03ec396aaab%3A0x30deca2d8b11396b!2sLive%20ARB!5e0!3m2!1sja!2sjp!4v1572711206202!5m2!1sja!2sjp"
-										width="600"
-										height="450"
-										frameborder="0"
-										style="border:0;"
-										allowfullscreen=""
-									></iframe>
-								</div>
-							</div>
-						</div>
-					</li>
-					<li>
-						<p class="date">2021.03.24 wed</p>
+						<p class="date">2021.03.25 thu</p>
 						<p class="info">
 							@金熊食堂 DJ体験、オープンDJブース（フリーDJ）
+						</p>
+					</li>
+					<li>
+						<p class="date">2021.04.24 sat</p>
+						<p class="info">
+							@カフェラボラトリー DJ体験、オープンDJブース（フリーDJ）
+						</p>
+					</li>
+					<li>
+						<p class="date">2021.05.21 fri</p>
+						<p class="info">
+							@Live Arb DJイベント
 						</p>
 					</li>
 				</ul>
@@ -89,6 +52,12 @@
 				<p>以下、過去回の配信動画です。作業用BGMに是非！</p>
 				<p>Check out the archives of the live streams from the links below.</p>
 				<ul class="img-gallery video-gallery">
+					<li>
+						<a href="https://twitcasting.tv/livearb/movie/669415501" target="_blank"
+							><img src="https://twitcasting.tv/livearb/thumb/669415501" />
+						</a>
+						<p>2021.02.26 Episode #11</p>
+					</li>
 					<li>
 						<a href="https://twitcasting.tv/livearb/movie/657171565" target="_blank"
 							><img src="https://twitcasting.tv/livearb/thumb/657171565" />
@@ -126,6 +95,16 @@
 				<p>過去回の詳細情報や当日の様子をご覧いただけます！</p>
 				<p>Click the flyers below for information and photos of past events.</p>
 				<ul class="img-gallery">
+					<li>
+						<router-link to="/2021-02-26">
+							<img src="/images/12/flyer.png" />
+						</router-link>
+					</li>
+					<li>
+						<router-link to="/2021-02-20">
+							<img src="/images/11/flyer.png" />
+						</router-link>
+					</li>
 					<li>
 						<router-link to="/2021-01-27">
 							<img src="/images/10/flyer.png" />
