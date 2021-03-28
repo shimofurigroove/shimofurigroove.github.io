@@ -28,12 +28,6 @@
 				<h2>🦅開催予定 Upcoming Events</h2>
 				<ul class="date-list">
 					<li>
-						<p class="date">2021.03.25 thu</p>
-						<p class="info">
-							@金熊食堂 DJ体験、オープンDJブース（フリーDJ）
-						</p>
-					</li>
-					<li>
 						<p class="date">2021.04.24 sat</p>
 						<p class="info">
 							@カフェラボラトリー DJ体験、オープンDJブース（フリーDJ）
@@ -43,6 +37,12 @@
 						<p class="date">2021.05.21 fri</p>
 						<p class="info">
 							@Live Arb DJイベント
+						</p>
+					</li>
+					<li>
+						<p class="date">2021.06.24 thu</p>
+						<p class="info">
+							@金熊食堂 DJ体験、オープンDJブース（フリーDJ）
 						</p>
 					</li>
 				</ul>
@@ -95,6 +95,11 @@
 				<p>過去回の詳細情報や当日の様子をご覧いただけます！</p>
 				<p>Click the flyers below for information and photos of past events.</p>
 				<ul class="img-gallery">
+					<li>
+						<router-link to="/2021-03-25">
+							<img src="/images/13/flyer.png" />
+						</router-link>
+					</li>
 					<li>
 						<router-link to="/2021-02-26">
 							<img src="/images/12/flyer.png" />
