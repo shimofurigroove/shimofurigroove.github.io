@@ -165,6 +165,9 @@
 			<section id="sns">
 				<h2>🐮SNS</h2>
 				<p class="text-center">
+					<a class="btn btn-primary" href="https://www.twitch.tv/shimofurigroove" target="_blank" role="button">Twitch</a>
+				</p>
+				<p class="text-center">
 					<a class="btn btn-primary" href="https://twitter.com/ShimofuriGroove" target="_blank" role="button">Twitter</a>
 				</p>
 				<Tweet id="ShimofuriGroove"></Tweet>
