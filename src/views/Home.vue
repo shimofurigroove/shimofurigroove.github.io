@@ -28,12 +28,6 @@
 				<h2>🦅開催予定 Upcoming Events</h2>
 				<ul class="date-list">
 					<li>
-						<p class="date">2021.04.24 sat</p>
-						<p class="info">
-							@カフェラボラトリー DJ体験、オープンDJブース（フリーDJ）
-						</p>
-					</li>
-					<li>
 						<p class="date">2021.05.21 fri</p>
 						<p class="info">
 							@Live Arb DJイベント
@@ -45,6 +39,12 @@
 							@金熊食堂 DJ体験、オープンDJブース（フリーDJ）
 						</p>
 					</li>
+					<li>
+						<p class="date">2021.07</p>
+						<p class="info">
+							@カフェラボラトリー DJ体験、オープンDJブース（フリーDJ）
+						</p>
+					</li>
 				</ul>
 			</section>
 			<section id="movie">
@@ -52,6 +52,12 @@
 				<p>以下、過去回の配信動画です。作業用BGMに是非！</p>
 				<p>Check out the archives of the live streams from the links below.</p>
 				<ul class="img-gallery video-gallery">
+					<li>
+						<a href="https://www.twitch.tv/videos/999064933" target="_blank"
+							><img src="https://static-cdn.jtvnw.net/cf_vods/d2nvs31859zcd8/613a8a01952f44a2d36d_shimofurigroove_41558821149_1619264396//thumb/thumb1-320x180.jpg" class="w-100" />
+						</a>
+						<p>2021.04.24 Episode #14</p>
+					</li>
 					<li>
 						<a href="https://twitcasting.tv/livearb/movie/669415501" target="_blank"
 							><img src="https://twitcasting.tv/livearb/thumb/669415501" />
@@ -95,6 +101,11 @@
 				<p>過去回の詳細情報や当日の様子をご覧いただけます！</p>
 				<p>Click the flyers below for information and photos of past events.</p>
 				<ul class="img-gallery">
+					<li>
+						<router-link to="/2021-04-24">
+							<img src="/images/14/flyer.png" />
+						</router-link>
+					</li>
 					<li>
 						<router-link to="/2021-03-25">
 							<img src="/images/13/flyer.png" />

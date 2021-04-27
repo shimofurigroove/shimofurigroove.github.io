@@ -6,32 +6,30 @@
 			<section>
 				<div class="page-header" id="banner">
 					<div class="my-4">
-						<h1>🍖米沢市のDJイベント、霜降りGROOVE episode #13</h1>
+						<h1>🍖米沢市のDJイベント、霜降りGROOVE episode #14</h1>
 						<p>
-							あいにくDJ体験、フリーDJは中止(T_T)<br>
-							金熊食堂さんで美味しいごはんを食べながら、TWITCH経由の配信形式でお送りいたしました。（アーカイブ動画保管しておくのを失念してました💦）<br>
-							唐揚げ定食、マグロのカマ焼き美味しかった！
+							カフェラボさんでは2回目となるイベントでした！<br>今回はタンテも常設し、配信もしてみました！※相変わらず配信は課題ありです…。
+							体験会にお越しいただいた方、カフェラボさんありがとうございました！<br>
+							HICHAさん、もらけさんもいつもありがとうございます！<br>
+							当日ライブ配信は、<a href="https://www.twitch.tv/videos/999064933" target="_blank">「こちら」</a>でご覧いただけます。
 						</p>
 					</div>
-					<ul class="img-gallery">
-						<li><img src="/images/13/01.jpg" /></li>
-						<li><img src="/images/13/02.jpg" /></li>
-						<li><img src="/images/13/03.jpg" /></li>
-					</ul>
 				</div>
 				<div class="row">
 					<div class="col-md-6">
-						<p><img src="/images/13/flyer.png" /></p>
+						<p><img src="/images/14/flyer.png" /></p>
 					</div>
 					<div class="col-md-6">
 						<div class="embed-container">
 							<iframe
-								src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12591.061337750092!2d140.1117743!3d37.9125474!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x44f6ae37e307a919!2z6YeR54aK6aOf5aCC!5e0!3m2!1sja!2sjp!4v1576427433769!5m2!1sja!2sjp"
+								src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12590.587847422114!2d140.1100125!3d37.9153138!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdf7409470d44e9b!2sCAFE%20LABORATORY!5e0!3m2!1sja!2sjp!4v1612671790829!5m2!1sja!2sjp"
 								width="600"
 								height="450"
 								frameborder="0"
 								style="border:0;"
 								allowfullscreen=""
+								aria-hidden="false"
+								tabindex="0"
 							></iframe>
 						</div>
 					</div>
@@ -57,7 +55,7 @@ export default {
 		meta: [
 			{
 				name: "description",
-				content: "米沢市の金熊食堂さんで美味しいごはんを食べながらのTWITCH配信！",
+				content: "米沢市のカフェラボさんでDJ体験・フリーDJ開催！",
 			},
 			{
 				property: "og:url",
@@ -65,11 +63,11 @@ export default {
 			},
 			{
 				property: "og:title",
-				content: "山形県米沢市のDJイベント、霜降りGROOVE episode #13 | Shimofuri Groove, DJ event based in Yonezawa Yamagata",
+				content: "山形県米沢市のDJイベント、霜降りGROOVE episode #14 | Shimofuri Groove, DJ event based in Yonezawa Yamagata",
 			},
 			{
 				property: "og:description",
-				content: "米沢市の金熊食堂さんで美味しいごはんを食べながらのTWITCH配信！",
+				content: "米沢市のカフェラボさんでDJ体験・フリーDJ開催！",
 			},
 		],
 	},
@@ -82,7 +80,7 @@ export default {
 	methods: {
 		track() {
 			this.$gtag.pageview({
-				page_path: "/2021-03-25",
+				page_path: "/2021-04-24",
 			});
 		},
 	},
