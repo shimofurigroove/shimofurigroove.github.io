@@ -17,9 +17,8 @@
 							好きなジャンルを楽しんだり、敢えて普段は聞かないジャンルを聞いて、新たな発見をしたり。お気軽にお楽しみください。
 						</p>
 						<p>
-							Shimofuri Groove, a DJ event based in Yonezawa."Shimofuri" means marbled fat. It is a word commonly used to express
-							high-ranking beef, like Yonezawa beef, one of the three major Japanese beef brands. In this DJ event, the DJ will serve
-							you the fresh shimofuri groove.
+							Shimofuri Groove, a DJ event based in Yonezawa."Shimofuri" means marbled fat. It is a word commonly used to express high-ranking beef,
+							like Yonezawa beef, one of the three major Japanese beef brands. In this DJ event, the DJ will serve you the fresh shimofuri groove.
 						</p>
 					</div>
 				</div>
@@ -29,9 +28,27 @@
 				<ul class="date-list">
 					<li>
 						<p class="date">2021.05.21 fri</p>
-						<p class="info">
-							@Live Arb DJイベント
-						</p>
+						<div class="row">
+							<div class="col-md-6">
+								<p><img src="/images/15/flyer.png" /></p>
+							</div>
+							<div class="col-md-6">
+								<p>
+									Live Arbさんのエントランススペース、b:arbで配信イベントを開催予定です！<br>
+									当日のライブ配信は、<a href="https://twitcasting.tv/livearb" target="_blank">「こちら」</a>でご覧いただけます。
+								</p>
+								<div class="embed-container">
+									<iframe
+										src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3147.8016911132613!2d140.1099035!3d37.9116977!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8af03ec396aaab%3A0x30deca2d8b11396b!2sLive%20ARB!5e0!3m2!1sja!2sjp!4v1572711206202!5m2!1sja!2sjp"
+										width="600"
+										height="450"
+										frameborder="0"
+										style="border:0;"
+										allowfullscreen=""
+									></iframe>
+								</div>
+							</div>
+						</div>
 					</li>
 					<li>
 						<p class="date">2021.06.24 thu</p>
@@ -54,44 +71,35 @@
 				<ul class="img-gallery video-gallery">
 					<li>
 						<a href="https://www.twitch.tv/videos/999064933" target="_blank"
-							><img src="https://static-cdn.jtvnw.net/cf_vods/d2nvs31859zcd8/613a8a01952f44a2d36d_shimofurigroove_41558821149_1619264396//thumb/thumb1-320x180.jpg" class="w-100" />
+							><img
+								src="https://static-cdn.jtvnw.net/cf_vods/d2nvs31859zcd8/613a8a01952f44a2d36d_shimofurigroove_41558821149_1619264396//thumb/thumb1-320x180.jpg"
+								class="w-100"
+							/>
 						</a>
 						<p>2021.04.24 Episode #14</p>
 					</li>
 					<li>
-						<a href="https://twitcasting.tv/livearb/movie/669415501" target="_blank"
-							><img src="https://twitcasting.tv/livearb/thumb/669415501" />
-						</a>
+						<a href="https://twitcasting.tv/livearb/movie/669415501" target="_blank"><img src="https://twitcasting.tv/livearb/thumb/669415501" /> </a>
 						<p>2021.02.26 Episode #11</p>
 					</li>
 					<li>
-						<a href="https://twitcasting.tv/livearb/movie/657171565" target="_blank"
-							><img src="https://twitcasting.tv/livearb/thumb/657171565" />
-						</a>
+						<a href="https://twitcasting.tv/livearb/movie/657171565" target="_blank"><img src="https://twitcasting.tv/livearb/thumb/657171565" /> </a>
 						<p>2020.12.19 Episode #8</p>
 					</li>
 					<li>
-						<a href="https://twitcasting.tv/livearb/movie/649856545" target="_blank"
-							><img src="https://twitcasting.tv/livearb/thumb/649856545" />
-						</a>
+						<a href="https://twitcasting.tv/livearb/movie/649856545" target="_blank"><img src="https://twitcasting.tv/livearb/thumb/649856545" /> </a>
 						<p>2020.11.06 Episode #7</p>
 					</li>
 					<li>
-						<a href="https://www.pscp.tv/ShimofuriGroove/1BdGYnrzMwEJX" target="_blank"
-							><img src="/images/06/periscope_cover_06.jpg" />
-						</a>
+						<a href="https://www.pscp.tv/ShimofuriGroove/1BdGYnrzMwEJX" target="_blank"><img src="/images/06/periscope_cover_06.jpg" /> </a>
 						<p>2020.10.21 Episode #6</p>
 					</li>
 					<li>
-						<a href="https://twitcasting.tv/livearb/movie/640005998" target="_blank"
-							><img src="https://twitcasting.tv/livearb/thumb/640005998" />
-						</a>
+						<a href="https://twitcasting.tv/livearb/movie/640005998" target="_blank"><img src="https://twitcasting.tv/livearb/thumb/640005998" /> </a>
 						<p>2020.09.11 Episode #5</p>
 					</li>
 					<li>
-						<a href="https://www.pscp.tv/ShimofuriGroove/1MYxNPylzPLGw" target="_blank"
-							><img src="/images/01/periscope_cover_01.jpg" />
-						</a>
+						<a href="https://www.pscp.tv/ShimofuriGroove/1MYxNPylzPLGw" target="_blank"><img src="/images/01/periscope_cover_01.jpg" /> </a>
 						<p>2019.12.08 Episode #1</p>
 					</li>
 				</ul>
