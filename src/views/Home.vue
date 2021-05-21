@@ -70,15 +70,6 @@
 				<p>Check out the archives of the live streams from the links below.</p>
 				<ul class="img-gallery video-gallery">
 					<li>
-						<a href="https://www.twitch.tv/videos/999064933" target="_blank"
-							><img
-								src="https://static-cdn.jtvnw.net/cf_vods/d2nvs31859zcd8/613a8a01952f44a2d36d_shimofurigroove_41558821149_1619264396//thumb/thumb1-320x180.jpg"
-								class="w-100"
-							/>
-						</a>
-						<p>2021.04.24 Episode #14</p>
-					</li>
-					<li>
 						<a href="https://twitcasting.tv/livearb/movie/669415501" target="_blank"><img src="https://twitcasting.tv/livearb/thumb/669415501" /> </a>
 						<p>2021.02.26 Episode #11</p>
 					</li>
