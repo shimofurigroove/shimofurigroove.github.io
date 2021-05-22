@@ -6,21 +6,19 @@
 			<section>
 				<div class="page-header" id="banner">
 					<div class="my-4">
-						<h1>🍖米沢市のDJイベント、霜降りGROOVE episode #12</h1>
+						<h1>🍖米沢市のDJイベント、霜降りGROOVE episode #15</h1>
 						<p>
-							急遽欠員がでる中、その場のノリで色々しましたら、とても楽しくDJができました。配信見てくださってたみなさんにもその雰囲気が少しでも伝わってると嬉しいです！
+							持ち時間たっぷりのDJ。<br>
+							店内のレイアウトが少し変わり、Arbさんの配信環境がさらにおしゃれに！<br />
+							当日ライブ配信は、<a href="https://twitcasting.tv/livearb/movie/683676242" target="_blank">「こちら」</a>でご覧いただけます。
 						</p>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-6">
-						<p><img src="/images/12/flyer.png" /></p>
+						<p><img src="/images/15/flyer.png" /></p>
 					</div>
 					<div class="col-md-6">
-						<p>
-							2021年初アーブさん！あいにくの配信オンリーですが、ぜひみなさんのベストプレイスでDJのオススメの楽曲をお気軽にお楽しみください！<br />
-							当日ライブ配信は、<a href="https://twitcasting.tv/livearb/movie/669415501" target="_blank">「こちら」</a>でご覧いただけます。
-						</p>
 						<div class="embed-container">
 							<iframe
 								src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3147.8016911132613!2d140.1099035!3d37.9116977!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8af03ec396aaab%3A0x30deca2d8b11396b!2sLive%20ARB!5e0!3m2!1sja!2sjp!4v1572711206202!5m2!1sja!2sjp"
@@ -50,23 +48,23 @@ import Footer from "@/components/Footer.vue";
 export default {
 	name: "Home",
 	metaInfo: {
-		title: "山形県米沢市のDJイベント、霜降りGROOVE episode #12 | Shimofuri Groove, DJ event based in Yonezawa Yamagata",
+		title: "山形県米沢市のDJイベント、霜降りGROOVE episode #15 | Shimofuri Groove, DJ event based in Yonezawa Yamagata",
 		meta: [
 			{
 				name: "description",
-				content: "2021年初アーブさん！その場のノリで色々しましたら、とても楽しくDJができました！",
+				content: "店内のレイアウトが少し変わり、Arbさんの配信環境がさらにおしゃれに！",
 			},
 			{
 				property: "og:url",
-				content: "https://shimofurigroove.github.io/2021-02-26",
+				content: "https://shimofurigroove.github.io/2021-05-21",
 			},
 			{
 				property: "og:title",
-				content: "山形県米沢市のDJイベント、霜降りGROOVE episode #12 | Shimofuri Groove, DJ event based in Yonezawa Yamagata",
+				content: "山形県米沢市のDJイベント、霜降りGROOVE episode #15 | Shimofuri Groove, DJ event based in Yonezawa Yamagata",
 			},
 			{
 				property: "og:description",
-				content: "2021年初アーブさん！その場のノリで色々しましたら、とても楽しくDJができました！",
+				content: "店内のレイアウトが少し変わり、Arbさんの配信環境がさらにおしゃれに！",
 			},
 		],
 	},
@@ -79,7 +77,7 @@ export default {
 	methods: {
 		track() {
 			this.$gtag.pageview({
-				page_path: "/2021-02-26",
+				page_path: "/2021-05-21",
 			});
 		},
 	},
