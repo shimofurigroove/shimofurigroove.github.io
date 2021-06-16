@@ -28,9 +28,27 @@
 				<ul class="date-list">
 					<li>
 						<p class="date">2021.06.24 thu</p>
-						<p class="info">
-							@金熊食堂 DJ体験、オープンDJブース（フリーDJ）
-						</p>
+						<div class="row">
+							<div class="col-md-6">
+								<p><img src="/images/16/flyer.png" /></p>
+							</div>
+							<div class="col-md-6">
+								<p>
+									恒例、金熊食堂さんでDJです！！！！<br>
+									美味しいご飯を食べながら音楽をお楽しみください！
+								</p>
+								<div class="embed-container">
+									<iframe
+										src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12591.061337750092!2d140.1117743!3d37.9125474!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x44f6ae37e307a919!2z6YeR54aK6aOf5aCC!5e0!3m2!1sja!2sjp!4v1576427433769!5m2!1sja!2sjp"
+										width="600"
+										height="450"
+										frameborder="0"
+										style="border:0;"
+										allowfullscreen=""
+									></iframe>
+								</div>
+							</div>
+						</div>
 					</li>
 					<li>
 						<p class="date">2021.07</p>
