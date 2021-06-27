@@ -27,24 +27,21 @@
 				<h2>🦅開催予定 Upcoming Events</h2>
 				<ul class="date-list">
 					<li>
-						<p class="date">2021.06.24 thu</p>
+						<p class="date">2021.07.03 sat</p>
 						<div class="row">
 							<div class="col-md-6">
-								<p><img src="/images/16/flyer.png" /></p>
+								<p><img src="/images/etc/flyer.jpg" /></p>
 							</div>
 							<div class="col-md-6">
-								<p>
-									恒例、金熊食堂さんでDJです！！！！<br>
-									美味しいご飯を食べながら音楽をお楽しみください！
-								</p>
+								<p>米沢図書館なせBAの5周年イベントわっさマルシェにて霜降りGROOVEもDJしてます！</p>
 								<div class="embed-container">
 									<iframe
-										src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12591.061337750092!2d140.1117743!3d37.9125474!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x44f6ae37e307a919!2z6YeR54aK6aOf5aCC!5e0!3m2!1sja!2sjp!4v1576427433769!5m2!1sja!2sjp"
+										src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6295.492707111902!2d140.110458!3d37.912991!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4b58e6b27af48a83!2z44OK44K7QkE!5e0!3m2!1sja!2sjp!4v1624790325733!5m2!1sja!2sjp"
 										width="600"
 										height="450"
-										frameborder="0"
 										style="border:0;"
 										allowfullscreen=""
+										loading="lazy"
 									></iframe>
 								</div>
 							</div>
@@ -104,6 +101,11 @@
 				<p>過去回の詳細情報や当日の様子をご覧いただけます！</p>
 				<p>Click the flyers below for information and photos of past events.</p>
 				<ul class="img-gallery">
+					<li>
+						<router-link to="/2021-06-24">
+							<img src="/images/16/flyer.png" />
+						</router-link>
+					</li>
 					<li>
 						<router-link to="/2021-05-21">
 							<img src="/images/15/flyer.png" />
