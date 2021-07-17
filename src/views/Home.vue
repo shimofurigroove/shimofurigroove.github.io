@@ -27,33 +27,6 @@
 				<h2>🦅開催予定 Upcoming Events</h2>
 				<ul class="date-list">
 					<li>
-						<p class="date">2021.07.03 sat</p>
-						<div class="row">
-							<div class="col-md-6">
-								<p><img src="/images/etc/flyer.jpg" /></p>
-							</div>
-							<div class="col-md-6">
-								<p>米沢図書館なせBAの5周年イベントわっさマルシェにて霜降りGROOVEもDJしてます！</p>
-								<div class="embed-container">
-									<iframe
-										src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6295.492707111902!2d140.110458!3d37.912991!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4b58e6b27af48a83!2z44OK44K7QkE!5e0!3m2!1sja!2sjp!4v1624790325733!5m2!1sja!2sjp"
-										width="600"
-										height="450"
-										style="border:0;"
-										allowfullscreen=""
-										loading="lazy"
-									></iframe>
-								</div>
-							</div>
-						</div>
-					</li>
-					<li>
-						<p class="date">2021.07</p>
-						<p class="info">
-							@カフェラボラトリー DJ体験、オープンDJブース（フリーDJ）
-						</p>
-					</li>
-					<li>
 						<p class="date">2021.08.22 sun</p>
 						<p class="info">
 							@Live Arb デイイベント予定
