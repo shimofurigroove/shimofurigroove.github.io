@@ -28,9 +28,25 @@
 				<ul class="date-list">
 					<li>
 						<p class="date">2021.08.22 sun</p>
-						<p class="info">
-							@Live Arb デイイベント予定
-						</p>
+						<div class="row">
+							<div class="col-md-6">
+								<p><a href="https://twitcasting.tv/livearb/" target="_blank"><img src="/images/17/flyer.jpg" /></a></p>
+							</div>
+							<div class="col-md-6">
+								<p>少し珍しい時間帯に配信イベント開催です！<br>
+								<a href="https://twitcasting.tv/livearb/" target="_blank">Arbさん公式ツイキャス</a>で配信予定です！</p>
+								<div class="embed-container">
+									<iframe
+										src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3147.8016911132613!2d140.1099035!3d37.9116977!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8af03ec396aaab%3A0x30deca2d8b11396b!2sLive%20ARB!5e0!3m2!1sja!2sjp!4v1572711206202!5m2!1sja!2sjp"
+										width="600"
+										height="450"
+										frameborder="0"
+										style="border:0;"
+										allowfullscreen=""
+									></iframe>
+								</div>
+							</div>
+						</div>
 					</li>
 				</ul>
 			</section>
