@@ -48,6 +48,18 @@
 							</div>
 						</div>
 					</li>
+					<li>
+						<p class="date">2021.09.01 wed</p>
+						<p class="info">
+							@Live Arb 胸いっぱいの音楽を！
+						</p>
+					</li>
+					<li>
+						<p class="date">2021.09.05 sun</p>
+						<p class="info">
+							@市立米沢図書館ナセBA周辺 第2回わっさまるしぇ
+						</p>
+					</li>
 				</ul>
 			</section>
 			<section id="movie">
