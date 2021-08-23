@@ -85,13 +85,18 @@ const routes = [
   },
   {
     path: '/2021-05-21',
-    name: '山形県米沢市のDJイベント、霜降りGROOVE episode #14 | Shimofuri Groove, DJ event based in Yonezawa Yamagata',
+    name: '山形県米沢市のDJイベント、霜降りGROOVE episode #15 | Shimofuri Groove, DJ event based in Yonezawa Yamagata',
     component: () => import('../views/2021-05-21.vue')
   },
   {
     path: '/2021-06-24',
-    name: '山形県米沢市のDJイベント、霜降りGROOVE episode #15 | Shimofuri Groove, DJ event based in Yonezawa Yamagata',
+    name: '山形県米沢市のDJイベント、霜降りGROOVE episode #16 | Shimofuri Groove, DJ event based in Yonezawa Yamagata',
     component: () => import('../views/2021-06-24.vue')
+  },
+  {
+    path: '/2021-08-22',
+    name: '山形県米沢市のDJイベント、霜降りGROOVE episode #17 | Shimofuri Groove, DJ event based in Yonezawa Yamagata',
+    component: () => import('../views/2021-08-22.vue')
   }
 ]
 

@@ -56,7 +56,7 @@ export default {
 			},
 			{
 				property: "og:url",
-				content: "https://shimofurigroove.github.io/2021-03-25",
+				content: "https://shimofurigroove.github.io/2021-06-24",
 			},
 			{
 				property: "og:title",
