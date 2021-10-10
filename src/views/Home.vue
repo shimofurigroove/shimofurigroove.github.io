@@ -10,7 +10,6 @@
 							🍖米沢のDJイベント、霜降り
 							<span class="dunkin">GROOVE</span>
 						</h1>
-						<!-- <rotate-beef></rotate-beef> -->
 						<p>
 							各DJが今一番ハマってる、贅沢ジューシーな音楽をセレクト。
 							<br />
@@ -25,31 +24,7 @@
 			</section>
 			<section id="events">
 				<h2>🦅開催予定 Upcoming Events</h2>
-				<ul class="date-list">
-					<li>
-						<p class="date">2021.10.09 sat</p>
-						<div class="row">
-							<div class="col-md-6">
-								<p><img src="/images/18/flyer.jpg" /></p>
-							</div>
-							<div class="col-md-6">
-								<p>
-									約3ヶ月ぶりに金熊食堂さんで開催！！あいにくDJ体験会はおこないまいせんが、金熊さんの美味しいお酒とご飯と一緒に各DJのおすすめの音楽をお楽しみください！
-								</p>
-								<div class="embed-container">
-									<iframe
-										src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12591.061337750092!2d140.1117743!3d37.9125474!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x44f6ae37e307a919!2z6YeR54aK6aOf5aCC!5e0!3m2!1sja!2sjp!4v1576427433769!5m2!1sja!2sjp"
-										width="600"
-										height="450"
-										frameborder="0"
-										style="border:0;"
-										allowfullscreen=""
-									></iframe>
-								</div>
-							</div>
-						</div>
-					</li>
-				</ul>
+				<p>未定！近日発表予定です！</p>
 			</section>
 			<section id="movie">
 				<h2>🍒配信 Live Stream</h2>
@@ -95,6 +70,11 @@
 				<p>過去回の詳細情報や当日の様子をご覧いただけます！</p>
 				<p>Click the flyers below for information and photos of past events.</p>
 				<ul class="img-gallery">
+					<li>
+						<router-link to="/2021-10-09">
+							<img src="/images/18/flyer.jpg" />
+						</router-link>
+					</li>
 					<li>
 						<router-link to="/2021-08-22">
 							<img src="/images/17/flyer.jpg" />
@@ -202,7 +182,6 @@
 import Layer from "@/components/Layer.vue";
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
-// import RotateBeef from "@/components/RotateBeef";
 import Tweet from "@/components/TwitterPanel.vue";
 
 export default {
@@ -211,7 +190,6 @@ export default {
 		Layer,
 		Header,
 		Footer,
-		// RotateBeef,
 		Tweet,
 	},
 	methods: {
