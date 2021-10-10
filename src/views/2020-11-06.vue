@@ -123,7 +123,7 @@ export default {
 			},
 			{
 				property: "og:url",
-				content: "https://shimofurigroove.github.io/2020-11-06",
+				content: "https://shimofurigroove.github.io/2020-11-06/",
 			},
 			{
 				property: "og:title",
@@ -144,7 +144,7 @@ export default {
 	methods: {
 		track() {
 			this.$gtag.pageview({
-				page_path: "/2020-11-06",
+				page_path: "/2020-11-06/",
 			});
 		},
 	},
