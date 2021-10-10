@@ -59,7 +59,7 @@ export default {
 			},
 			{
 				property: "og:url",
-				content: "https://shimofurigroove.github.io/2021-08-22/",
+				content: "https://shimofurigroove.github.io/2021-10-09",
 			},
 			{
 				property: "og:title",
@@ -80,7 +80,7 @@ export default {
 	methods: {
 		track() {
 			this.$gtag.pageview({
-				page_path: "/2021-10-09/",
+				page_path: "/2021-10-09",
 			});
 		},
 	},
