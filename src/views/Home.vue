@@ -24,7 +24,36 @@
 			</section>
 			<section id="events">
 				<h2>🦅開催予定 Upcoming Events</h2>
-				<p>未定！近日発表予定です！</p>
+				<ul class="date-list">
+					<li>
+						<p class="date">2021.10.29 fri</p>
+						<div class="row">
+							<div class="col-md-6">
+								<p>
+									<img src="/images/19/flyer.jpg" />
+								</p>
+							</div>
+							<div class="col-md-6">
+								<p>
+									美味しいドリンクやスイーツと一緒に音楽をお楽しみください！<br />
+									今回DJはくわけん、さがわに加えてHICHAさんも参戦！(ΦωΦ)
+								</p>
+								<div class="embed-container">
+									<iframe
+										src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12590.587847422114!2d140.1100125!3d37.9153138!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdf7409470d44e9b!2sCAFE%20LABORATORY!5e0!3m2!1sja!2sjp!4v1612671790829!5m2!1sja!2sjp"
+										width="600"
+										height="450"
+										frameborder="0"
+										style="border:0;"
+										allowfullscreen=""
+										aria-hidden="false"
+										tabindex="0"
+									></iframe>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
 			</section>
 			<section id="movie">
 				<h2>🍒配信 Live Stream</h2>
