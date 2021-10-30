@@ -103,6 +103,11 @@ const routes = [
 		name: "山形県米沢市のDJイベント、霜降りGROOVE episode #18 | Shimofuri Groove, DJ event based in Yonezawa Yamagata",
 		component: () => import("../views/2021-10-09.vue"),
 	},
+	{
+		path: "/2021-10-29",
+		name: "山形県米沢市のDJイベント、霜降りGROOVE episode #19 | Shimofuri Groove, DJ event based in Yonezawa Yamagata",
+		component: () => import("../views/2021-10-29.vue"),
+	},
 ];
 
 const router = new VueRouter({

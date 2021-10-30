@@ -51,7 +51,7 @@ import Footer from "@/components/Footer.vue";
 export default {
 	name: "Home",
 	metaInfo: {
-		title: "山形県米沢市のDJイベント、霜降りGROOVE episode #17 | Shimofuri Groove, DJ event based in Yonezawa Yamagata",
+		title: "山形県米沢市のDJイベント、霜降りGROOVE episode #18 | Shimofuri Groove, DJ event based in Yonezawa Yamagata",
 		meta: [
 			{
 				name: "description",
@@ -63,7 +63,7 @@ export default {
 			},
 			{
 				property: "og:title",
-				content: "山形県米沢市のDJイベント、霜降りGROOVE episode #17 | Shimofuri Groove, DJ event based in Yonezawa Yamagata",
+				content: "山形県米沢市のDJイベント、霜降りGROOVE episode #18 | Shimofuri Groove, DJ event based in Yonezawa Yamagata",
 			},
 			{
 				property: "og:description",
