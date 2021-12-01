@@ -7,7 +7,7 @@
 				<div class="page-header" id="banner">
 					<div class="my-4">
 						<h1>
-							🍖米沢のDJイベント、霜降り
+							<span class="emoji">🍖</span>米沢のDJイベント、霜降り
 							<span class="dunkin">GROOVE</span>
 						</h1>
 						<p>
@@ -23,7 +23,7 @@
 				</div>
 			</section>
 			<section id="events">
-				<h2>🦅開催予定 Upcoming Events</h2>
+				<h2><span>🦅</span>開催予定 Upcoming Events</h2>
 				<ul class="date-list">
 					<li>
 						<p class="date">2021.12.18 sat RAF-REC</p>
@@ -32,7 +32,7 @@
 				</ul>
 			</section>
 			<section id="movie">
-				<h2>🍒配信 Live Stream</h2>
+				<h2><span>🍒</span>配信 Live Stream</h2>
 				<p>以下、過去回の配信動画です。作業用BGMに是非！</p>
 				<p>Check out the archives of the live streams from the links below.</p>
 				<ul class="img-gallery video-gallery">
@@ -71,7 +71,7 @@
 				</ul>
 			</section>
 			<section id="archive">
-				<h2>⛄️過去回 Archives</h2>
+				<h2><span>⛄️</span>過去回 Archives</h2>
 				<p>過去回の詳細情報や当日の様子をご覧いただけます！</p>
 				<p>Click the flyers below for information and photos of past events.</p>
 				<ul class="img-gallery">
@@ -178,7 +178,7 @@
 				</ul>
 			</section>
 			<section id="sns">
-				<h2>🐮SNS</h2>
+				<h2><span>🐮</span></h2>
 				<p class="text-center">
 					<a class="btn btn-primary" href="https://www.twitch.tv/shimofurigroove" target="_blank" role="button">Twitch</a>
 				</p>
