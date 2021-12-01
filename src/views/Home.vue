@@ -26,9 +26,8 @@
 				<h2>🦅開催予定 Upcoming Events</h2>
 				<ul class="date-list">
 					<li>
-						<p class="date">2021.11.06 sat 西條天満公園</p>
-						<p class="date">2021.11.14 sun CAFE LABORATORY</p>
-						<p class="date">2021.11.19 fri 金熊食堂</p>
+						<p class="date">2021.12.18 sat RAF-REC</p>
+						<p class="date">2021.12末予定 金熊食堂</p>
 					</li>
 				</ul>
 			</section>
@@ -76,6 +75,11 @@
 				<p>過去回の詳細情報や当日の様子をご覧いただけます！</p>
 				<p>Click the flyers below for information and photos of past events.</p>
 				<ul class="img-gallery">
+					<li>
+						<router-link to="/2021-11-14">
+							<img src="/images/20/flyer.jpg" />
+						</router-link>
+					</li>
 					<li>
 						<router-link to="/2021-10-29">
 							<img src="/images/19/flyer.jpg" />

@@ -6,20 +6,19 @@
 			<section>
 				<div class="page-header" id="banner">
 					<div class="my-4">
-						<h1>🍖米沢市のDJイベント、霜降りGROOVE episode #18</h1>
+						<h1>🍖米沢市のDJイベント、霜降りGROOVE episode #20</h1>
 						<p>
-							当日は金熊さんが盛況だったこともあり、楽しい雰囲気の中、のびのびとDJをさせていただきました！
+							終わってから気付いたのですが、記念すべき20回目の開催でした！
 						</p>
 					</div>
 					<ul class="img-gallery">
-						<li><img src="/images/18/1.jpg" /><br />金熊さんイチオシ、チキン南蛮！</li>
-						<li><img src="/images/18/2.jpg" /><br />3人同時DJ！くわけんのnew gear、DDJ-SR2！意外とコンパクト。</li>
-						<li><img src="/images/18/3.jpg" /><br />AIAIAIのイヤパッドをe08に新調しました。ずっと付けてても耳がいたくなりません。</li>
+						<li><img src="/images/20/1.jpg" /><br />霜降りGROOVE at 金熊食堂</li>
+						<li><img src="/images/20/2.jpg" /><br />もらけ氏イカゲームのエディット良い！</li>
 					</ul>
 				</div>
 				<div class="row">
 					<div class="col-md-6">
-						<p><img src="/images/18/flyer.jpg" /></p>
+						<p><img src="/images/20/flyer.jpg" /></p>
 					</div>
 					<div class="col-md-6">
 						<div class="embed-container">
@@ -51,23 +50,23 @@ import Footer from "@/components/Footer.vue";
 export default {
 	name: "Home",
 	metaInfo: {
-		title: "山形県米沢市のDJイベント、霜降りGROOVE episode #18 | Shimofuri Groove, DJ event based in Yonezawa Yamagata",
+		title: "山形県米沢市のDJイベント、霜降りGROOVE episode #20 | Shimofuri Groove, DJ event based in Yonezawa Yamagata",
 		meta: [
 			{
 				name: "description",
-				content: "当日は金熊さんが盛況だったこともあり、楽しい雰囲気の中、のびのびとDJをさせていただきました！",
+				content: "少し珍しい時間帯に配信イベント開催です！",
 			},
 			{
 				property: "og:url",
-				content: "https://shimofurigroove.github.io/2021-10-09",
+				content: "https://shimofurigroove.github.io/2021-11-14",
 			},
 			{
 				property: "og:title",
-				content: "山形県米沢市のDJイベント、霜降りGROOVE episode #18 | Shimofuri Groove, DJ event based in Yonezawa Yamagata",
+				content: "山形県米沢市のDJイベント、霜降りGROOVE episode #20 | Shimofuri Groove, DJ event based in Yonezawa Yamagata",
 			},
 			{
 				property: "og:description",
-				content: "当日は金熊さんが盛況だったこともあり、楽しい雰囲気の中、のびのびとDJをさせていただきました！",
+				content: "少し珍しい時間帯に配信イベント開催です！",
 			},
 		],
 	},
@@ -80,7 +79,7 @@ export default {
 	methods: {
 		track() {
 			this.$gtag.pageview({
-				page_path: "/2021-10-09",
+				page_path: "/2021-11-14",
 			});
 		},
 	},
