@@ -6,7 +6,7 @@
 			<section>
 				<div class="page-header" id="banner">
 					<div class="my-4">
-						<h1>🍖米沢市のDJイベント、霜降りGROOVE episode #8</h1>
+						<h1><span class="emoji">🍖</span>米沢市のDJイベント、霜降りGROOVE episode #8</h1>
 						<p>
 							配信を見てくださった方、Live Arbさんありがとうございました！<br />
 							サックスセッションで出演してくださったCHI3CHEEさん、DJで参加のYOSHIKIさん、HICHAさん、もらけさん、大雪の中ありがとうございました！<br />

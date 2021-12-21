@@ -26,34 +26,30 @@
 				<h2><span>🦅</span>開催予定 Upcoming Events</h2>
 				<ul class="date-list">
 					<li>
-						<p class="date">2021.12.18 sat</p>
+						<p class="date">2021.12.25 sat</p>
 						<div class="row">
 							<div class="col-md-6">
 								<p>
-									<img src="/images/21/flyer.jpg" />
+									<img src="/images/22/flyer.jpg" />
 								</p>
 							</div>
 							<div class="col-md-6">
 								<p>
-									霜降りGROOVE 出張編<br />
-									初遠征です！RAF-RECさんありがとうございます！<br />
-									当日は幅広いジャンルの音楽をお届けに参ります！<br />
+									霜降りGROOVE at 米沢市金熊食堂！！！<br />
+									クリスマスをDJイベントで楽しみましょう！一人でもお気軽にお越しくださいませ！
 								</p>
 								<div class="embed-container">
 									<iframe
-										src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12533.07118199015!2d140.3229477!3d38.2500947!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2327d0f7dcff178b!2sraf-rec!5e0!3m2!1sja!2sjp!4v1639393790974!5m2!1sja!2sjp"
+										src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12591.061337750092!2d140.1117743!3d37.9125474!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x44f6ae37e307a919!2z6YeR54aK6aOf5aCC!5e0!3m2!1sja!2sjp!4v1576427433769!5m2!1sja!2sjp"
 										width="600"
 										height="450"
+										frameborder="0"
 										style="border:0;"
 										allowfullscreen=""
-										loading="lazy"
 									></iframe>
 								</div>
 							</div>
 						</div>
-					</li>
-					<li>
-						<p class="date">2021.12末予定 金熊食堂</p>
 					</li>
 				</ul>
 			</section>
@@ -101,6 +97,11 @@
 				<p>過去回の詳細情報や当日の様子をご覧いただけます！</p>
 				<p>Click the flyers below for information and photos of past events.</p>
 				<ul class="img-gallery">
+					<li>
+						<router-link to="/2021-12-18">
+							<img src="/images/21/flyer.jpg" />
+						</router-link>
+					</li>
 					<li>
 						<router-link to="/2021-11-14">
 							<img src="/images/20/flyer.jpg" />
@@ -205,12 +206,17 @@
 			</section>
 			<section id="sns">
 				<h2><span>🐮</span></h2>
-				<p class="text-center">
-					<a class="btn btn-primary" href="https://www.twitch.tv/shimofurigroove" target="_blank" role="button">Twitch</a>
-				</p>
-				<p class="text-center">
-					<a class="btn btn-primary" href="https://twitter.com/ShimofuriGroove" target="_blank" role="button">Twitter</a>
-				</p>
+				<div class="btn-wrap">
+					<p class="text-center">
+						<a class="btn btn-primary" href="https://www.instagram.com/shimofurigroove/" target="_blank" role="button">Instagram</a>
+					</p>
+					<p class="text-center">
+						<a class="btn btn-primary" href="https://twitter.com/ShimofuriGroove" target="_blank" role="button">Twitter</a>
+					</p>
+					<p class="text-center">
+						<a class="btn btn-primary" href="https://www.twitch.tv/shimofurigroove" target="_blank" role="button">Twitch</a>
+					</p>
+				</div>
 				<Tweet id="ShimofuriGroove"></Tweet>
 			</section>
 		</div>
@@ -242,3 +248,12 @@ export default {
 	},
 };
 </script>
+<style scoped>
+.btn-wrap {
+	display: flex;
+	justify-content: center;
+}
+.btn {
+	margin-right: 1rem;
+}
+</style>

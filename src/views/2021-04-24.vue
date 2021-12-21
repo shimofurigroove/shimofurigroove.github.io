@@ -6,7 +6,7 @@
 			<section>
 				<div class="page-header" id="banner">
 					<div class="my-4">
-						<h1>🍖米沢市のDJイベント、霜降りGROOVE episode #14</h1>
+						<h1><span class="emoji">🍖</span>米沢市のDJイベント、霜降りGROOVE episode #14</h1>
 						<p>
 							カフェラボさんでは2回目となるイベントでした！<br>今回はタンテも常設し、配信もしてみました！※相変わらず配信は課題ありです…。
 							体験会にお越しいただいた方、カフェラボさんありがとうございました！<br>

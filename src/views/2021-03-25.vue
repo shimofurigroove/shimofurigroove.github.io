@@ -6,7 +6,7 @@
 			<section>
 				<div class="page-header" id="banner">
 					<div class="my-4">
-						<h1>🍖米沢市のDJイベント、霜降りGROOVE episode #13</h1>
+						<h1><span class="emoji">🍖</span>米沢市のDJイベント、霜降りGROOVE episode #13</h1>
 						<p>
 							あいにくDJ体験、フリーDJは中止(T_T)<br>
 							金熊食堂さんで美味しいごはんを食べながら、TWITCH経由の配信形式でお送りいたしました。（アーカイブ動画保管しておくのを失念してました💦）<br>

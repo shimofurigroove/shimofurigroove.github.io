@@ -6,7 +6,7 @@
 			<section>
 				<div class="page-header" id="banner">
 					<div class="my-4">
-						<h1>🍖米沢市のDJイベント、霜降りGROOVE episode #11</h1>
+						<h1><span class="emoji">🍖</span>米沢市のDJイベント、霜降りGROOVE episode #11</h1>
 						<p>
 							カフェラボさんで初イベントでした！起こしくださった方、カフェラボさんありがとうございました！<br>
 							DJ体験しに来てくださった方も時間内にどんどん上達し、最後にはテンポとミックスができるようになってました！<br>

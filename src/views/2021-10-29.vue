@@ -6,7 +6,7 @@
 			<section>
 				<div class="page-header" id="banner">
 					<div class="my-4">
-						<h1>🍖米沢市のDJイベント、霜降りGROOVE episode #19</h1>
+						<h1><span class="emoji">🍖</span>米沢市のDJイベント、霜降りGROOVE episode #19</h1>
 						<p>
 							いつもカフェラボさんのお洒落な店内に緊張しちゃいます。HICHAさん、くわけんさんはオールバイナルセットはいつもながら素敵でした！  
 							DJに興味を持ってくれた方もいらっしゃって嬉しかったです！ぜひいつか霜降りGROOVEでDJデビューしてほしいです！

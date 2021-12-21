@@ -6,7 +6,7 @@
 			<section>
 				<div class="page-header" id="banner">
 					<div class="my-4">
-						<h1>🍖米沢市のDJイベント、霜降りGROOVE episode #12</h1>
+						<h1><span class="emoji">🍖</span>米沢市のDJイベント、霜降りGROOVE episode #12</h1>
 						<p>
 							急遽欠員がでる中、その場のノリで色々しましたら、とても楽しくDJができました。配信見てくださってたみなさんにもその雰囲気が少しでも伝わってると嬉しいです！
 						</p>

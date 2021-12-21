@@ -6,7 +6,7 @@
 			<section>
 				<div class="page-header" id="banner">
 					<div class="my-4">
-						<h1>🍖米沢のDJイベント、霜降りGROOVE episode #6</h1>
+						<h1><span class="emoji">🍖</span>米沢のDJイベント、霜降りGROOVE episode #6</h1>
 						<p>
 							ご来場くださった方、配信見てくださった方、金熊食堂さんありがとうございました！DJで参加のもらけさん、いつもありがとうございます！<br />
 							DJ体験盛り上がってました！<br />

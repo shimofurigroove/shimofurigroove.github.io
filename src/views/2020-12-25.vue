@@ -6,7 +6,7 @@
 			<section>
 				<div class="page-header" id="banner">
 					<div class="my-4">
-						<h1>🍖米沢市のDJイベント、霜降りGROOVE episode #9</h1>
+						<h1><span class="emoji">🍖</span>米沢市のDJイベント、霜降りGROOVE episode #9</h1>
 						<p>
 							少々バタバタとした開催になってしまいました💦金熊食堂さん、いつもお店の一部を使わせてくださってありがとうございます！🙇<br />
 							いつもDJしてくださる方々がいらっしゃらないので、ロンリーナイトを覚悟してましたが、もらけさんが途中から来てくださいました。いつもありがとうございます！🙇

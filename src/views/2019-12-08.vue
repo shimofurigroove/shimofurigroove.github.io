@@ -6,7 +6,7 @@
 			<section>
 				<div class="page-header" id="banner">
 					<div class="my-4">
-						<h1>🍖米沢のDJイベント、霜降りGROOVE episode #1</h1>
+						<h1><span class="emoji">🍖</span>米沢のDJイベント、霜降りGROOVE episode #1</h1>
 						<p>
 							記念すべき第1回はArbさんで開催しました！みなさんありがとうございました！<br />
 							当日ライブ配信していた動画は<a href="https://www.pscp.tv/ShimofuriGroove/1MYxNPylzPLGw?t=3m6s" target="_blank"

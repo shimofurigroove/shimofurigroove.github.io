@@ -6,7 +6,7 @@
 			<section>
 				<div class="page-header" id="banner">
 					<div class="my-4">
-						<h1>🍖米沢市のDJイベント、霜降りGROOVE episode #16</h1>
+						<h1><span class="emoji">🍖</span>米沢市のDJイベント、霜降りGROOVE episode #16</h1>
 						<p>
 							金熊食堂さん、DJのみなさん、いつもありがとうございます！気づいたらもう16回目。<br>
 							もらけさんのおしゃれなハウス・ミュージックで始まりながら、jpopまで。幅広いジャンルを聞きながら、美味しいごはんとお酒を楽しみました！<br>
