@@ -13,7 +13,7 @@
   "main": "index.js",
   "dependencies": {
     "core-js": "^3.8.2",
-    "three": "^0.122.0",
+    "three": "^0.137.0",
     "vue-router": "^3.4.9",
     "vue-tweet-embed": "^2.4.0"
   },
