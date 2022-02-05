@@ -26,29 +26,7 @@
 				<h2><span>🦅</span>開催予定 Upcoming Events</h2>
 				<ul class="date-list">
 					<li>
-						<p class="date">2022.01.28 fri</p>
-						<div class="row">
-							<div class="col-md-6">
-								<p>
-									<img src="/images/23/flyer.jpg" />
-								</p>
-							</div>
-							<div class="col-md-6">
-								<p>
-									店内のマニアックなレコードをディグりながらお酒と音楽をお楽しみくださいませ！
-								</p>
-								<div class="embed-container">
-									<iframe
-										src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25181.48219314706!2d140.1303359!3d37.91441845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8af03f988c0001%3A0x34db0d69291e73ca!2zVG9ObmEgVG93TiAo44OI44Oz44OK44K_44Km44OzKQ!5e0!3m2!1sja!2sjp!4v1641998113653!5m2!1sja!2sjp"
-										width="600"
-										height="450"
-										style="border:0;"
-										allowfullscreen=""
-										loading="lazy"
-									></iframe>
-								</div>
-							</div>
-						</div>
+						<p class="date">2022.03.26 sat at Live Arb</p>
 					</li>
 				</ul>
 			</section>
@@ -96,6 +74,11 @@
 				<p>過去回の詳細情報や当日の様子をご覧いただけます！</p>
 				<p>Click the flyers below for information and photos of past events.</p>
 				<ul class="img-gallery">
+					<li>
+						<router-link to="/2022-01-28">
+							<img src="/images/23/flyer.jpg" />
+						</router-link>
+					</li>
 					<li>
 						<router-link to="/2021-12-25">
 							<img src="/images/22/flyer.jpg" />
