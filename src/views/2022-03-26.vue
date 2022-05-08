@@ -51,7 +51,7 @@ export default {
 		meta: [
 			{
 				name: "description",
-				content: "マニアックなレコードやCDがたくさんあるトンナタウンさんでDJ！",
+				content: "お越しくださった方、配信を見てくださった方、アーブさんありがとうございました！",
 			},
 			{
 				property: "og:url",
@@ -63,7 +63,7 @@ export default {
 			},
 			{
 				property: "og:description",
-				content: "マニアックなレコードやCDがたくさんあるトンナタウンさんでDJ！",
+				content: "お越しくださった方、配信を見てくださった方、アーブさんありがとうございました！",
 			},
 		],
 	},
@@ -76,7 +76,7 @@ export default {
 	methods: {
 		track() {
 			this.$gtag.pageview({
-				page_path: "/2022-01-28",
+				page_path: "/2022-03-26",
 			});
 		},
 	},
