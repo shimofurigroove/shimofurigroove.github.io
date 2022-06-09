@@ -38,7 +38,7 @@
 				<ul class="img-gallery video-gallery">
 					<li>
 						<a href="https://twitcasting.tv/livearb/movie/725863839" target="_blank"><img src="https://twitcasting.tv/livearb/thumb/725863839" /> </a>
-						<p>2021.08.22 Episode #17</p>
+						<p>2022.03.26 Episode #24</p>
 					</li>
 					<li>
 						<a href="https://twitcasting.tv/livearb/movie/697795999" target="_blank"><img src="https://twitcasting.tv/livearb/thumb/697795999" /> </a>
